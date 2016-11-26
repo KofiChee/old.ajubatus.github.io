@@ -1,5 +1,7 @@
 ---
 excerpt: "For part 1, I wiped the 2901 and began setting up a basic configuration"
+header:
+  overlay_color: "#333"
 ---
 
 For part 1, I started with double checking the 2901 was in a working condition and wiping it of the previous owner's information. I was shocked to find the routing information and configuration from the networking company that it used to belong to was still present on the device. After wiping, I set the hostname and began working on a basic configuration.
