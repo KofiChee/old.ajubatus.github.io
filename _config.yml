@@ -14,7 +14,7 @@ description              : "A small personal blog"
 url                      : "https://sdunbar.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "venomireland/venomireland.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/teaser.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 170
 comments:
