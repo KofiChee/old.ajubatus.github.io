@@ -224,6 +224,12 @@ tag_archive:
 #     tag: /tags/:name/
 
 
+# Collections
+collections:
+  college:
+    output: true
+    permalink: /:collection/:path/
+
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
@@ -252,3 +258,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _college
+  - scope:
+      path: ""
+      type: college
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+
