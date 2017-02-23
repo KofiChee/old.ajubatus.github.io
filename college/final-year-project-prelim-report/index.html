@@ -64,7 +64,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2017-02-23T16:01:05+00:00">
+  <meta property="article:published_time" content="2017-02-23T16:15:52+00:00">
 
 
 
@@ -358,9 +358,9 @@
 
 <h2 id="existing-solutions">Existing Solutions</h2>
 
-<p>A number of commercial plant monitors exist, one in particular being the Parrot Flower Power, by Parrot. This is a small unit, placed directly in the plants soil, which connects to a nearby phone via Bluetooth and reports on not only soil moisture level, temperature and light level but nutritional intake of the plant, powered with a 6 month battery. It also features a graph interface accessible via the app. [CITATION Par17 \l 2057]</p>
+<p>A number of commercial plant monitors exist, one in particular being the Parrot Flower Power, by Parrot. This is a small unit, placed directly in the plants soil, which connects to a nearby phone via Bluetooth and reports on not only soil moisture level, temperature and light level but nutritional intake of the plant, powered with a 6 month battery. It also features a graph interface accessible via the app. [1]</p>
 
-<p>This however has rather poor reviews on sites such as CNET [CITATION Geb14 \l 2057] and is now discontinued. The system I am planning to develop will have a number of advantages over this product:</p>
+<p>This however has rather poor reviews on sites such as CNET [2] and is now discontinued. The system I am planning to develop will have a number of advantages over this product:</p>
 
 <ul>
   <li>Potentially Cheaper</li>
@@ -388,47 +388,40 @@
 <h2 id="timeline">Timeline</h2>
 
 <ol>
-  <li><strong>Research Components of Project                                                -        2 weeks</strong></li>
-  <li>1.Research Hardware                                                        -        1 week
-    1. 1.1. Determine SBC to use
-    2. 1.2. Determine Moisture Sensor
-    3. 1.3. Determine LDR (or other optic sensor)
-    4. 1.4. Determine Thermometer</li>
-  <li>2.Research Software                                                        -        1 week
-    1. 2.1. Determine firmware to use on SBC
-    2. 2.2. Determine Data Storage Solution to used
-    3. 2.3. Determine Graphing Web Service to use</li>
-  <li><strong>Design Hardware Implementation                                                -        2 weeks</strong></li>
-  <li>1.Set up SBC and interface with sensors                                        -        1 week
-    1. 1.1. Set up each sensor individually and pull data from it
-    2. 1.2. Test pushing of data from each sensor</li>
-  <li>2.Set up solenoid driver with SBC                                                -        1 week
-    1. 2.1. Test activation of solenoid driver
-    2. 2.2. Determine how long to run pump for desired output</li>
-  <li><strong>Design Software Implementation                                                -        2 weeks</strong></li>
-  <li>1.Set up Data Storage Solution                                                -        1 week
-    1. 1.1. Implement DSS in appropriate fashion taking security into account</li>
-  <li>2.Set up Graphing Web Service                                                -        1 week
-    1. 2.1. Implement Graphing Web Service, track statistics and infer data from them</li>
-  <li><strong>Testing and Refinement                                                        -        2 weeks</strong></li>
-  <li>1.Test values for accuracy                                                -        1 week
-    1. 1.1. Use known working thermometer to measure temperature
-    2. 1.2. Test pump output matches expected values</li>
-  <li>2.Determine Solar Power viability                                        -        1 week
-    1. 2.1. Measure power output and Sun                                        -        2 days
-    <ol>
-      <li>2.1.1.Compare power usage to potential photovoltaic panel power generation</li>
-      <li>2.1.2.Possibly use LDR to generate an estimate of power generation
-        <ol>
-          <li>2.2. Research available solutions                                        -        3 days</li>
-        </ol>
-      </li>
-    </ol>
-  </li>
+  <li><strong>Research Components of Project                                                -        2 weeks</strong>
+ 1.1. Research Hardware                                                        -        1 week
+  1.1.1. Determine SBC to use
+  1.1.2. Determine Moisture Sensor
+  1.1.3. Determine LDR (or other optic sensor)
+  1.1.4. Determine Thermometer
+ 1.2. Research Software                                                        -        1 week
+  1.2.1. Determine firmware to use on SBC
+  1.2.2. Determine Data Storage Solution to used
+  1.2.3. Determine Graphing Web Service to use</li>
+  <li><strong>Design Hardware Implementation                                                -        2 weeks</strong>
+ 2.1. Set up SBC and interface with sensors                                        -        1 week
+  2.1.1. Set up each sensor individually and pull data from it
+  2.1.2. Test pushing of data from each sensor
+ 2.2. Set up solenoid driver with SBC                                                -        1 week
+  2.2.1. Test activation of solenoid driver
+  2.2.2. Determine how long to run pump for desired output</li>
+  <li><strong>Design Software Implementation                                                -        2 weeks</strong>
+ 3.1. Set up Data Storage Solution                                                -        1 week
+  3.1.1. Implement DSS in appropriate fashion taking security into account
+ 3.2. Set up Graphing Web Service                                                -        1 week
+  3.2.1. Implement Graphing Web Service, track statistics and infer data from them</li>
+  <li><strong>Testing and Refinement                                                        -        2 weeks</strong>
+ 4.1.Test values for accuracy                                                -        1 week
+  4.1.1. Use known working thermometer to measure temperature
+  4.1.2. Test pump output matches expected values
+ 4.2. Determine Solar Power viability                                        -        1 week
+  4.2.1. Measure power output and Sun                                        -        2 days
+4.2.1.1. Compare power usage to potential photovoltaic panel power generation
+4.2.1.2. Possibly use LDR to generate an estimate of power generation
+  4.2.2. Research available solutions                                        -        3 days</li>
 </ol>
 
-<p>#
-Conclusions</p>
+<h1 id="conclusions">Conclusions</h1>
 
 <p>I believe with this preliminary report I have adequately outlined the steps I will need to take to fulfil this project in accordance with the guidelines set out by DIT. I have broken down the project into 6 steps, briefly talked about existing solutions and gave a timeline of events for the project.</p>
 
@@ -438,13 +431,13 @@ Conclusions</p>
   <thead>
     <tr>
       <th>[1]</th>
-      <th>Parrot, "Parrot - Flower Power," 2017. [Online]. Available: http://global.parrot.com/au/products/flower-power/. [Accessed 16 February 2017].</th>
+      <th>Parrot, "Parrot - Flower Power," 2017. [Online]. Available: <a href="http://global.parrot.com/au/products/flower-power/">http://global.parrot.com/au/products/flower-power/</a>. [Accessed 16 February 2017].</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>[2]</td>
-      <td>A. Gebhart, "Parrot Flower Power Review," 4 June 2014. [Online]. Available: https://www.cnet.com/uk/products/parrot-flower-power/review/. [Accessed 16 February 2017].</td>
+      <td>A. Gebhart, "Parrot Flower Power Review," 4 June 2014. [Online]. Available: <a href="http://global.parrot.com/au/products/flower-power/">https://www.cnet.com/uk/products/parrot-flower-power/review/</a>. [Accessed 16 February 2017].</td>
     </tr>
   </tbody>
 </table>
@@ -458,7 +451,7 @@ Conclusions</p>
 
 
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-02-23T16:01:05+00:00">February 23, 2017</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-02-23T16:15:52+00:00">February 23, 2017</time></p>
         
       </footer>
 
