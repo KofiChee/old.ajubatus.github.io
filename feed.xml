@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="https://sdunbar.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sdunbar.me/" rel="alternate" type="text/html" /><updated>2017-02-23T15:15:23+00:00</updated><id>https://sdunbar.me/</id><title type="html">Technobabble</title><subtitle>Sean's Blog'</subtitle><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><entry><title type="html">Migrating From Google Authenticator To Authy</title><link href="https://sdunbar.me/Migrating-from-Google-Authenticator-to-Authy/" rel="alternate" type="text/html" title="Migrating From Google Authenticator To Authy" /><published>2016-11-26T00:00:00+00:00</published><updated>2016-11-26T00:00:00+00:00</updated><id>https://sdunbar.me/Migrating-from-Google-Authenticator-to-Authy</id><content type="html" xml:base="https://sdunbar.me/Migrating-from-Google-Authenticator-to-Authy/">&lt;h2 id=&quot;migrating-from-google-authenticator-to-authy&quot;&gt;Migrating from Google Authenticator to Authy&lt;/h2&gt;
+
+&lt;p&gt;Two Factor Authentication is a neccessity these days and I try to use it wherever I can, but I was concerned still over what happened if I lost my phone and thus access to my 2FA credentials. To get around this using Google Authenticator I used Titanium Backup to backup the APK and data every 24 hours, but this was really clunky and I didn’t like that there was no built-in method to backup this data.&lt;/p&gt;
+
+&lt;p&gt;Then I discovered Authy, which promises features such as account backups and multi-device usage, such as using a Chrome App to access your 2FA codes when needed. I decided to give it a shot but first I had to copy over my old data from Google Auth.&lt;/p&gt;
+
+&lt;h3 id=&quot;exporting-google-authenticator-account-info&quot;&gt;Exporting Google Authenticator account info&lt;/h3&gt;
+&lt;p&gt;I found that Google Authenticator did not have a simple way to get code information back out, but after some online searching I found &lt;a href=&quot;https://jcode.me/migrate-from-google-authenticator-to-authy-android-5/&quot;&gt;a post on jcode.me detailing the process&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For this, you need to use ADB and have ADB drivers installed for your phone.&lt;/p&gt;
+
+&lt;p&gt;With the phone connected:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adb shell
+su
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On my phone, I then had to copy over an sqlite3 binary, &lt;a href=&quot;http://forum.xda-developers.com/showpost.php?p=57143465&amp;amp;postcount=15&quot;&gt;found here through XDA&lt;/a&gt;, to my Download folder.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mount -o remount,rw /system 
+cp /sdcard/Download/sqlite3 /system/xbin
+chmod +x /system/xbin/sqlite3
+mount -o remount,ro /system 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now we can finally access the database:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sqlite3 /data/data/com.google.android.apps.authenticator2/databases/databases
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the database, we select all information from the accounts table:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;select * from accounts;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This will spit out a number of account details, we are only concerned with the 3rd field, which is the code used we will use to add the key to Authy.&lt;/p&gt;
+
+&lt;p&gt;This can be typed in manually, or you can generate a QR code of the following URL to scan in Authy, where XXXX in the example represents the name of the account being added and XXXX represents the code:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;otpauth://totp/XXXX?secret=YYYY
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With all these steps completed, I then scanned in the QR codes I generated, which prompted me to identify the account associated with the code and in some cases, tweak the service it was for. Unfortunately, not all services had an icon for them, so they are forced to use a generic icon.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><summary type="html">I decided to move from Google Authenticator to Authy, so I could have more devices and a backup if I lost my phone</summary></entry><entry><title type="html">Migrating From Iredmail To An Alternative Solution</title><link href="https://sdunbar.me/migrating-from-iredmail-to-an-alternative-solution/" rel="alternate" type="text/html" title="Migrating From Iredmail To An Alternative Solution" /><published>2016-10-02T00:00:00+00:00</published><updated>2016-10-02T00:00:00+00:00</updated><id>https://sdunbar.me/migrating-from-iredmail-to-an-alternative-solution</id><content type="html" xml:base="https://sdunbar.me/migrating-from-iredmail-to-an-alternative-solution/">&lt;p&gt;Originally, when I registered my own domain, I decided I wanted to use it for a professional looking email to use on my CV and for applying to jobs. When I initially planned this, I had read an &lt;a href=&quot;http://arstechnica.com/information-technology/2014/02/how-to-run-your-own-e-mail-server-with-your-own-domain-part-1/&quot;&gt;Ars Technica article&lt;/a&gt; about setting up an email server. With this info, I decided to read more into running your own email server, and came across IRedMail. For almost a year now, iRedMail is what I’ve been using, but between needing to constantly monitor access logs for numerous services, triple checking security settings every time a change is made, spend an eternity updating everything and dealing with mail delivery issues, I started to get frustrated.&lt;/p&gt;
+
+&lt;p&gt;I decided to look for a replacement, either an all in one suite that is regularly updated (and libre if I can get it), or a solution hosted elsewhere that allows me to use my own domain for equal or lesser cost to running the server.&lt;/p&gt;
+
+&lt;p&gt;I compared two appropriate solutions for this, Zoho Mail and Zimbra Suite. Zoho Mail is a service that provides email hosting for custom domains, they offer a free tier, limited to 1 domain and 25 users. Zimbra Suite is a locally installed collection of mail software, similar to IRedMail, but with a simpler update procedure and less headaches from maintenance.&lt;/p&gt;
+
+&lt;p&gt;In the end, I went with Zoho Mail, the limitations of a single domain and 25 users are perfect for me. Another alternative I was looking at was Zimbra suite, however given the problems I had running IRedMail on its VPS due to lack of memory, I decided against it.&lt;/p&gt;
+
+&lt;p&gt;The migration was relatively simple, it involved siging up for Zoho, tweaking my DNS records and then running a script to import my old mail. After that, all I had to do was point my email clients to the new IMAP and SMTP addresses and I was finished.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><summary type="html">I decided to look for a replacement to my self-hosted email solution</summary></entry><entry><title type="html">Home Network Redesign Part 1</title><link href="https://sdunbar.me/home-network-redesign-part-1/" rel="alternate" type="text/html" title="Home Network Redesign Part 1" /><published>2016-08-15T00:00:00+00:00</published><updated>2016-08-15T00:00:00+00:00</updated><id>https://sdunbar.me/home-network-redesign-part-1</id><content type="html" xml:base="https://sdunbar.me/home-network-redesign-part-1/">&lt;p&gt;For part 1, I started with double checking the 2901 was in a working condition and wiping it of the previous owner’s information. I was shocked to find the routing information and configuration from the networking company that it used to belong to was still present on the device. After wiping, I set the hostname and began working on a basic configuration.&lt;/p&gt;
+
+&lt;p&gt;I started with addressing and on-lining the interfaces. I then added a default route for all traffic destined for the internet.&lt;/p&gt;
+
+&lt;h3 id=&quot;interface-setup&quot;&gt;Interface setup:&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Dunbar-Router(config)#interface gigabitEthernet 0/0  
+Dunbar-Router(config-if)#ip address 192.168.1.101 255.255.255.0  
+Dunbar-Router(config-if)#ip nat outside
+
+Dunbar-Router(config)#interface GigabitEthernet0/1  
+Dunbar-Router(config-if)#ip address 192.168.0.1 255.255.255.0  
+Dunbar-Router(config-if)#ip nat inside  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;dhcp-setup&quot;&gt;DHCP setup:&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Dunbar-Router(config)#ip dhcp pool DHCPPOOL  
+Dunbar-Router(dhcp-config)#network 192.168.0.0 255.255.255.0  
+Dunbar-Router(dhcp-config)#default  
+Dunbar-Router(dhcp-config)#default-router 192.168.0.1  
+Dunbar-Router(dhcp-config)#dns-s  
+Dunbar-Router(dhcp-config)#dns-server 8.8.8.8 8.8.4.4  
+Dunbar-Router(dhcp-config)#lease 0 12 0
+
+Dunbar-Router(config)#ip dhcp excluded-address 192.168.0.1 192.168.0.99
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;pat-and-default-route-setup&quot;&gt;PAT and default route setup:&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Dunbar-Router(config)#interface gigabitEthernet 0/0  
+Dunbar-Router(config-if)#ip nat outside
+
+Dunbar-Router(config)#interface gigabitEthernet 0/1  
+Dunbar-Router(config-if)#ip nat inside
+
+Dunbar-Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255  
+Dunbar-Router(config)#ip nat inside source list 1 interface gigabitEthernet 0/0 overload
+Dunbar-Router(config)#ip route 0.0.0.0 0.0.0.0 gigabitEthernet 0/0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I then set up some static port translations (port forwarding). This is used for the numerous services I run on my media server, allowing me external access to these services.&lt;/p&gt;
+
+&lt;h3 id=&quot;port-forwards&quot;&gt;Port forwards:&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Dunbar-Router(config)#ip nat inside source static tcp $serverAddress $serverPort $outsideInterfaceAddress $extendablePort extendable  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For this router I am using a local user for authentication&lt;/p&gt;
+
+&lt;p&gt;Next I create a local user and enable SSH on the vty lines, then secure it with a password:&lt;/p&gt;
+
+&lt;h3 id=&quot;local-user-and-ssh&quot;&gt;Local user and SSH:&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Dunbar-Router(config)#username $username password $password
+Dunbar-Router(config)#enable secret
+
+Dunbar-Router(config)#crypto key generate rsa
+
+Dunbar-Router(config)#line vty 0 4  
+Dunbar-Router(config-line)#transport input ssh  
+Dunbar-Router(config-line)#login local  
+Dunbar-Router(config-line)#password $password
+Dunbar-Router(config-line)#exit
+
+Dunbar-Router(config)#line console 0  
+Dunbar-Router(config-line)# logging synchronous  
+Dunbar-Router(config-line)# login local
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With these basic steps completed, I then moved the router the the LACKRACK I had previously constructed. This is an IKEA LACK table, with IKEA BYGEL towel racks screwed into the legs. This provides a cheap alternative to a dedicated rack. In the future, I plan to purchase a more suitable rack, but this will do for now.&lt;/p&gt;
+
+&lt;p&gt;In the future, I will take a look back at the security and further harden the router. As it stands right now, the router is complete overkill for my home network and should last longer than all the devices in the network.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><summary type="html">For part 1, I wiped the 2901 and began setting up a basic configuration</summary></entry><entry><title type="html">Home Network Redesign Overview</title><link href="https://sdunbar.me/home-network-redesign-overview/" rel="alternate" type="text/html" title="Home Network Redesign Overview" /><published>2016-08-14T00:00:00+00:00</published><updated>2016-08-14T00:00:00+00:00</updated><id>https://sdunbar.me/home-network-redesign-overview</id><content type="html" xml:base="https://sdunbar.me/home-network-redesign-overview/">&lt;p&gt;After finishing my Networking Technologies degree in DIT, I decided that I wanted to start a home networking revamp to prove to myself that I could and to refresh my skills. I decided that I wanted to completely redo every aspect of the network, except for my ISP connection. I chose to break this down into 5 steps.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Part 1: Install and configure Cisco 2901 Router&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;From my work placement last year, I was able to acquire 3 Cisco 2901 routers. I decided to re-purpose one of them into my own home router after my previous router (A Mikrotik RB951G) failed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Part 2: Redesign “heart” of network&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The next step involves securing a proper rack solution, installing a 24port switch, and transferring my current media server into a new, rack-mountable case&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Part 3: Install new Access Points&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Currently I am using a leftover Mikrotik RB951G and an old DLINK DIR-655 to provide wireless access through my house. I plan to replace these with PoE Access Points. I am planning to use Ubiquiti Unifi AP AC Lites as my access points, because they are relatively cheap for the features offerred.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Part 4: Run Cat6 through attic and add wall panels for ethernet&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The final step is to replace the Cat5e cables running through the attic with Cat6. I also plan to terminate these properly in a wall plate, instead of having a cable hanging down from the ceiling which is what is done currently.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><summary type="html">After finishing my Networking Technologies degree in DIT, I decided that I wanted to revamp my home network</summary></entry></feed>
