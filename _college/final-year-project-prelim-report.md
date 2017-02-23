@@ -46,9 +46,9 @@ Although the project itself has little ethical requirements due to its nature, I
 
 ## Existing Solutions
 
-A number of commercial plant monitors exist, one in particular being the Parrot Flower Power, by Parrot. This is a small unit, placed directly in the plants soil, which connects to a nearby phone via Bluetooth and reports on not only soil moisture level, temperature and light level but nutritional intake of the plant, powered with a 6 month battery. It also features a graph interface accessible via the app. [CITATION Par17 \l 2057]
+A number of commercial plant monitors exist, one in particular being the Parrot Flower Power, by Parrot. This is a small unit, placed directly in the plants soil, which connects to a nearby phone via Bluetooth and reports on not only soil moisture level, temperature and light level but nutritional intake of the plant, powered with a 6 month battery. It also features a graph interface accessible via the app. [1]
 
-This however has rather poor reviews on sites such as CNET [CITATION Geb14 \l 2057] and is now discontinued. The system I am planning to develop will have a number of advantages over this product:
+This however has rather poor reviews on sites such as CNET [2] and is now discontinued. The system I am planning to develop will have a number of advantages over this product:
 
 - Potentially Cheaper
 - Autonomous
@@ -74,44 +74,43 @@ I will also need to research a suitable database to store information from the d
 ## Timeline
 
 1. **Research Components of Project                                                -        2 weeks**
-  1. 1.Research Hardware                                                        -        1 week
-    1. 1.1. Determine SBC to use
-    2. 1.2. Determine Moisture Sensor
-    3. 1.3. Determine LDR (or other optic sensor)
-    4. 1.4. Determine Thermometer
-  2. 2.Research Software                                                        -        1 week
-    1. 2.1. Determine firmware to use on SBC
-    2. 2.2. Determine Data Storage Solution to used
-    3. 2.3. Determine Graphing Web Service to use
+ 1.1. Research Hardware                                                        -        1 week
+  1.1.1. Determine SBC to use
+  1.1.2. Determine Moisture Sensor
+  1.1.3. Determine LDR (or other optic sensor)
+  1.1.4. Determine Thermometer
+ 1.2. Research Software                                                        -        1 week
+  1.2.1. Determine firmware to use on SBC
+  1.2.2. Determine Data Storage Solution to used
+  1.2.3. Determine Graphing Web Service to use
 2. **Design Hardware Implementation                                                -        2 weeks**
-  1. 1.Set up SBC and interface with sensors                                        -        1 week
-    1. 1.1. Set up each sensor individually and pull data from it
-    2. 1.2. Test pushing of data from each sensor
-  2. 2.Set up solenoid driver with SBC                                                -        1 week
-    1. 2.1. Test activation of solenoid driver
-    2. 2.2. Determine how long to run pump for desired output
+ 2.1. Set up SBC and interface with sensors                                        -        1 week
+  2.1.1. Set up each sensor individually and pull data from it
+  2.1.2. Test pushing of data from each sensor
+ 2.2. Set up solenoid driver with SBC                                                -        1 week
+  2.2.1. Test activation of solenoid driver
+  2.2.2. Determine how long to run pump for desired output
 3. **Design Software Implementation                                                -        2 weeks**
-  1. 1.Set up Data Storage Solution                                                -        1 week
-    1. 1.1. Implement DSS in appropriate fashion taking security into account
-  2. 2.Set up Graphing Web Service                                                -        1 week
-    1. 2.1. Implement Graphing Web Service, track statistics and infer data from them
+ 3.1. Set up Data Storage Solution                                                -        1 week
+  3.1.1. Implement DSS in appropriate fashion taking security into account
+ 3.2. Set up Graphing Web Service                                                -        1 week
+  3.2.1. Implement Graphing Web Service, track statistics and infer data from them
 4. **Testing and Refinement                                                        -        2 weeks**
-  1. 1.Test values for accuracy                                                -        1 week
-    1. 1.1. Use known working thermometer to measure temperature
-    2. 1.2. Test pump output matches expected values
-  2. 2.Determine Solar Power viability                                        -        1 week
-    1. 2.1. Measure power output and Sun                                        -        2 days
-      1. 2.1.1.Compare power usage to potential photovoltaic panel power generation
-      2. 2.1.2.Possibly use LDR to generate an estimate of power generation
-    2. 2.2. Research available solutions                                        -        3 days
+ 4.1.Test values for accuracy                                                -        1 week
+  4.1.1. Use known working thermometer to measure temperature
+  4.1.2. Test pump output matches expected values
+ 4.2. Determine Solar Power viability                                        -        1 week
+  4.2.1. Measure power output and Sun                                        -        2 days
+   4.2.1.1. Compare power usage to potential photovoltaic panel power generation
+   4.2.1.2. Possibly use LDR to generate an estimate of power generation
+  4.2.2. Research available solutions                                        -        3 days
 
-#
-Conclusions
+# Conclusions
 
 I believe with this preliminary report I have adequately outlined the steps I will need to take to fulfil this project in accordance with the guidelines set out by DIT. I have broken down the project into 6 steps, briefly talked about existing solutions and gave a timeline of events for the project.
 
 # References
 
-| [1] | Parrot, &quot;Parrot - Flower Power,&quot; 2017. [Online]. Available: http://global.parrot.com/au/products/flower-power/. [Accessed 16 February 2017]. |
+| [1] | Parrot, &quot;Parrot - Flower Power,&quot; 2017. [Online]. Available: [http://global.parrot.com/au/products/flower-power/](http://global.parrot.com/au/products/flower-power/). [Accessed 16 February 2017]. |
 | --- | --- |
-| [2] | A. Gebhart, &quot;Parrot Flower Power Review,&quot; 4 June 2014. [Online]. Available: https://www.cnet.com/uk/products/parrot-flower-power/review/. [Accessed 16 February 2017]. |
+| [2] | A. Gebhart, &quot;Parrot Flower Power Review,&quot; 4 June 2014. [Online]. Available: [https://www.cnet.com/uk/products/parrot-flower-power/review/](http://global.parrot.com/au/products/flower-power/). [Accessed 16 February 2017]. |
