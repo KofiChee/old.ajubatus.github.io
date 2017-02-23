@@ -5,18 +5,20 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+theme: minimal-mistakes-jekyll
+
 # Site Settings
 locale                   : "en"
 title                    : "Technobabble"
 title_separator          : "-"
 name                     : "Sean Dunbar"
-description              : "A small personal blog"
+description              : "Sean's Blog'"
 url                      : "https://sdunbar.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "venomireland/venomireland.github.io"
 teaser                   : "/assets/images/teaser.jpg"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 170
+words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -55,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : venomireland
+  username               : "venomireland"
 facebook:
   username               :
   app_id                 :
@@ -79,7 +81,7 @@ analytics:
 author:
   name             : "Sean Dunbar"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am 21 year old male currently studying Networking Applications and Services in DIT"
+  bio              : "I am 22 year old male currently studying Networking Applications and Services in DIT"
   location         : "Dublin"
   email            : sean@sdunbar.me
   uri              :
@@ -104,7 +106,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : channel/UCbsN9ZP_h4_joiB8zE7FpiQ
+  youtube          : "https://www.youtube.com/channel/UCbsN9ZP_h4_joiB8zE7FpiQ""
 
 
 # Reading Files
@@ -268,3 +270,18 @@ defaults:
       read_time: true
       share: true
 
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+username: venomireland
+repo: venomireland.github.io
+source_branch: source
+destination_brach: master
+destination: ../gh-pages/
