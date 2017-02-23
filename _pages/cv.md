@@ -4,7 +4,7 @@ published: true
 ---
 # Summary
 
-I am currently in my 4th year at DIT, studying Network Applications and Services. I am very quick to learn new skills and am extremely enthusiastic about technology. I have built, repaired and worked on numerous computers over the past few years. I also host a small blog on DigitalOcean as well as maintain a home media server running unRAID.
+I am currently in my 4th year at DIT, studying Network Applications and Services. I am very quick to learn new skills and am extremely enthusiastic about technology. I have built, repaired and worked on numerous computers over the past few years. I also host the blog you are on right now through GitHub Pages as well as maintain a home media server running unRAID.
 
 # Experience
 
@@ -45,14 +45,14 @@ This was an in-house 2 week work placement in Liberties College, this involved s
 '16 – '17 (est.)
 
 |Subject												|Grade|
-|Mobile Applications									|TBC|
-|Distributed Systems									|TBC|
-|Software Development									|TBC|
-|Open Source Software in the Enterprise					|TBC|
+|Mobile Applications									|69%|
+|Distributed Systems									|74%|
+|Software Development									|88%|
+|Open Source Software in the Enterprise					|90%|
 |Embedded Systems Connectivity							|TBC|
 |Network &amp; Wireless Security Principles				|TBC|
 |Universal Design &amp; Assistive Technology			|TBC|
-|Management, Marketing and Law							|TBC|
+|Management, Marketing and Law							|60%|
 |Project												|TBC|
 
 
@@ -98,7 +98,7 @@ This was an in-house 2 week work placement in Liberties College, this involved s
 
 |Title																|Grade|	Certificate ID if available|
 |Introduction to Computer Science and Programming Using Python		|98%|	[710da3b6c3884babb5249604d79f7780](https://courses.edx.org/certificates/710da3b6c3884babb5249604d79f7780)|
-|Introduction to Computational Thinking and Data Science			|in progress|in progress|
+|Introduction to Computational Thinking and Data Science			|91%|   [5f4660c254b1413d9ba58f5e14091541](https://courses.edx.org/certificates/5f4660c254b1413d9ba58f5e14091541)|
 
 
 
