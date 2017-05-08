@@ -74,36 +74,36 @@ I will also need to research a suitable database to store information from the d
 ## Timeline
 
 1. **Research Components of Project                                                -        2 weeks**
-  1.1. Research Hardware                                                        -        1 week
-    1.1.1. Determine SBC to use
-    1.1.2. Determine Moisture Sensor
-    1.1.3. Determine LDR (or other optic sensor)
-    1.1.4. Determine Thermometer
-  1.2. Research Software                                                        -        1 week
-    1.2.1. Determine firmware to use on SBC
-    1.2.2. Determine Data Storage Solution to used
-    1.2.3. Determine Graphing Web Service to use
+    1. Research Hardware                                                           -        1 week
+        1. Determine SBC to use
+        2. Determine Moisture Sensor
+        3. Determine LDR (or other optic sensor)
+        4. Determine Thermometer
+    2. Research Software                                                            -        1 week
+        1. Determine firmware to use on SBC
+        2. Determine Data Storage Solution to used
+        3. Determine Graphing Web Service to use
 2. **Design Hardware Implementation                                                -        2 weeks**
-  2.1. Set up SBC and interface with sensors                                        -        1 week
-    2.1.1. Set up each sensor individually and pull data from it
-    2.1.2. Test pushing of data from each sensor
-  2.2. Set up solenoid driver with SBC                                                -        1 week
-    2.2.1. Test activation of solenoid driver
-    2.2.2. Determine how long to run pump for desired output
+    1. Set up SBC and interface with sensors                                        -        1 week
+        1. Set up each sensor individually and pull data from it
+        2. Test pushing of data from each sensor
+    2. Set up solenoid driver with SBC                                                -        1 week
+        1. Test activation of solenoid driver
+        2. Determine how long to run pump for desired output
 3. **Design Software Implementation                                                -        2 weeks**
-  3.1. Set up Data Storage Solution                                                -        1 week
-    3.1.1. Implement DSS in appropriate fashion taking security into account
-  3.2. Set up Graphing Web Service                                                -        1 week
-    3.2.1. Implement Graphing Web Service, track statistics and infer data from them
+    1. Set up Data Storage Solution                                                -        1 week
+        1. Implement DSS in appropriate fashion taking security into account
+    2. Set up Graphing Web Service                                                -        1 week
+        1. Implement Graphing Web Service, track statistics and infer data from them
 4. **Testing and Refinement                                                        -        2 weeks**
-  4.1.Test values for accuracy                                                -        1 week
-    4.1.1. Use known working thermometer to measure temperature
-    4.1.2. Test pump output matches expected values
-  4.2. Determine Solar Power viability                                        -        1 week
-    4.2.1. Measure power output and Sun                                        -        2 days
-      4.2.1.1. Compare power usage to potential photovoltaic panel power generation
-      4.2.1.2. Possibly use LDR to generate an estimate of power generation
-    4.2.2. Research available solutions                                        -        3 days
+    1. Test values for accuracy                                                     -        1 week
+        1. Use known working thermometer to measure temperature
+        2. Test pump output matches expected values
+    2. Determine Solar Power viability                                        -        1 week
+        1. Measure power output and Sun                                        -        2 days
+            1. Compare power usage to potential photovoltaic panel power generation
+            2. Possibly use LDR to generate an estimate of power generation
+        2. Research available solutions                                        -        3 days
 
 # Conclusions
 
@@ -113,4 +113,4 @@ I believe with this preliminary report I have adequately outlined the steps I wi
 
 | [1] | Parrot, &quot;Parrot - Flower Power,&quot; 2017. [Online]. Available: [http://global.parrot.com/au/products/flower-power/](http://global.parrot.com/au/products/flower-power/). [Accessed 16 February 2017]. |
 | --- | --- |
-| [2] | A. Gebhart, &quot;Parrot Flower Power Review,&quot; 4 June 2014. [Online]. Available: [https://www.cnet.com/uk/products/parrot-flower-power/review/](http://global.parrot.com/au/products/flower-power/). [Accessed 16 February 2017]. |
+| [2] | A. Gebhart, &quot;Parrot Flower Power Review,&quot; 4 June 2014. [Online]. Available: [https://www.cnet.com/uk/products/parrot-flower-power/review/](http://global.parrot.com/au/products/flower-power/). [Accessed 16 February 2017]. |%  
