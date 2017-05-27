@@ -2,6 +2,10 @@
 excerpt: "I decided to move from Google Authenticator to Authy, so I could have more devices and a backup if I lost my phone"
 header:
   overlay_color: "#333"
+categories:
+  - Guides 
+tags:
+  - Personal
 ---
 ## Migrating from Google Authenticator to Authy
 

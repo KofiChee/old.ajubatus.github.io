@@ -2,6 +2,11 @@
 excerpt: "After finishing my Networking Technologies degree in DIT, I decided that I wanted to revamp my home network"
 header:
   overlay_color: "#333"
+Categories:
+  - Project
+  - Personal
+tags:
+  - Networking
 ---
 After finishing my Networking Technologies degree in DIT, I decided that I wanted to start a home networking revamp to prove to myself that I could and to refresh my skills. I decided that I wanted to completely redo every aspect of the network, except for my ISP connection. I chose to break this down into 5 steps.
 

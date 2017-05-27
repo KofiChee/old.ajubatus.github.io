@@ -2,6 +2,10 @@
 excerpt: "I decided to look for a replacement to my self-hosted email solution"
 header:
   overlay_color: "#333"
+categories:
+  - Guides
+tags:
+  - Personal
 ---
 
 Originally, when I registered my own domain, I decided I wanted to use it for a professional looking email to use on my CV and for applying to jobs. When I initially planned this, I had read an [Ars Technica article](http://arstechnica.com/information-technology/2014/02/how-to-run-your-own-e-mail-server-with-your-own-domain-part-1/) about setting up an email server. With this info, I decided to read more into running your own email server, and came across IRedMail. For almost a year now, iRedMail is what I've been using, but between needing to constantly monitor access logs for numerous services, triple checking security settings every time a change is made, spend an eternity updating everything and dealing with mail delivery issues, I started to get frustrated.

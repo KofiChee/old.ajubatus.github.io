@@ -11,5 +11,5 @@ source "https://rubygems.org"
 # end
 
 
-gem 'rake', '12.0.0'
-gem 'minimal-mistakes-jekyll', '4.2.1'
+gem 'rake'
+gem 'minimal-mistakes-jekyll'

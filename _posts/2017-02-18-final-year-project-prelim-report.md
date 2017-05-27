@@ -1,6 +1,14 @@
 ---
 title: "Final Year Project - Preliminary Report"
 excerpt: "This is the preliminary report I submitted for my Final Year Project in DT080B"
+header:
+  overlay_color: "#333"
+categories:
+  - College
+tags:
+  - Report
+  - Plant
+  - 
 ---
 
 # Introduction

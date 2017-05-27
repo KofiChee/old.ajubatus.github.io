@@ -227,10 +227,10 @@ tag_archive:
 
 
 # Collections
-collections:
-  college:
-    output: true
-    permalink: /:collection/:path/
+# collections:
+#   college:
+#     output: true
+#     permalink: /:collection/:path/
 
 # HTML Compression
 # - http://jch.penibelst.de/
@@ -260,15 +260,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _college
-  - scope:
-      path: ""
-      type: college
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
+
 
 # Settings for builing master branch with travis-ci
 # with jekyll-travis
