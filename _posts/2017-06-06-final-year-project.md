@@ -168,7 +168,7 @@ integrated WiFi. It features an 802.11b/g/n capabilities and is directly
 programmable, but can also interface with other SBCs such as an Arduino. [1]
 
 <figure>
-	<a href=/assets/images/final_year_report/image3.jpeg"><img src="/assets/images/final_year_report/image3.jpeg"></a>
+	<a href="/assets/images/final_year_report/image3.jpeg"><img src="/assets/images/final_year_report/image3.jpeg"></a>
 	<figcaption>Figure 1, LoLin NodeMCU [2]</figcaption>
 </figure>
 
@@ -209,6 +209,7 @@ project.
 | PCB Size                | 18 x 45mm                    |
 | Weight                  | 7g                           |
 | Product Code            | A000005                      |
+
 Figure 2, Arduino Nano Technical Specs [6] 
 
 ##### Raspberry Pi Zero W
@@ -257,7 +258,7 @@ project, this SBC would have been chosen.
  | Analog I/O Pins   | 1               |                                       
  | PCB Size          | 34.2mm x 25.6mm |                                       
  | Weight            | 10g             |                                       
-                                                                               
+    
 Figure 4, WeMos D1 Mini specs [8]
 
 ### I<sup>2</sup>C Moisture Sensor
@@ -325,7 +326,7 @@ for transmission, it is then up to the master to generate the STOP
 condition or repeated START. [10]
 
 <figure>
-	<a href=/assets/images/final_year_report/image4.gif"><img src="/assets/images/final_year_report/image4.gif"></a>
+	<a href="/assets/images/final_year_report/image4.gif"><img src="/assets/images/final_year_report/image4.gif"></a>
 	<figcaption>Figure 5, I2C Data Transfer example [10]</figcaption>
 </figure>
 
@@ -339,7 +340,7 @@ slave is being written to or read from. When communication is finished,
 a STOP condition is generated as it is above.
 
 <figure>
-	<a href=/assets/images/final_year_report/image5.gif"><img src="/assets/images/final_year_report/image5.gif"></a>
+	<a href="/assets/images/final_year_report/image5.gif"><img src="/assets/images/final_year_report/image5.gif"></a>
 	<figcaption>Figure 6, I2C Data Transfer with 7-bit addresses [10]</figcaption>
 </figure>
 
@@ -352,7 +353,7 @@ will send the repeated START condition instead of STOP and then start
 communicating again. [10]
 
 <figure>
-	<a href=/assets/images/final_year_report/image6.gif"><img src="/assets/images/final_year_report/image6.gif"></a>
+	<a href="/assets/images/final_year_report/image6.gif"><img src="/assets/images/final_year_report/image6.gif"></a>
 	<figcaption>Figure 7, I2C Data Transfer with 7-bit addresses, Repeated START [10]</figcaption>
 </figure>
 
@@ -369,7 +370,7 @@ under a trigger condition, an LED was enabled in its place. This was
 achieved with a simple design:
 
 <figure>
-	<a href=/assets/images/final_year_report/image7.png"><img src="/assets/images/final_year_report/image7.png"></a>
+	<a href="/assets/images/final_year_report/image7.png"><img src="/assets/images/final_year_report/image7.png"></a>
 	<figcaption>Figure 8, LED Diagram</figcaption>
 </figure>
 
@@ -382,7 +383,7 @@ in design and a replacement had to be found. With the help of Frank
 Duignan, a simple LDR + resistor setup was devised as follows:
 
 <figure>
-	<a href=/assets/images/final_year_report/image8.png"><img src="/assets/images/final_year_report/image8.png"></a>
+	<a href="/assets/images/final_year_report/image8.png"><img src="/assets/images/final_year_report/image8.png"></a>
 	<figcaption>Figure 9, LDR Diagram</figcaption>
 </figure>
 
@@ -560,7 +561,7 @@ on a home server. These Docker containers were installed on an UnRAID
 server as follows:
 
 <figure>
-	<a href=/assets/images/final_year_report/image9.png"><img src="/assets/images/final_year_report/image9.png"></a>
+	<a href="/assets/images/final_year_report/image9.png"><img src="/assets/images/final_year_report/image9.png"></a>
 	<figcaption>Figure 10, InfluxDB Container Creation</figcaption>
 </figure>
 
@@ -573,7 +574,7 @@ writing to the database. By default, it is unsecured any anyone can
 access it.
 
 <figure>
-	<a href=/assets/images/final_year_report/image10.png"><img src="/assets/images/final_year_report/image10.png"></a>
+	<a href="/assets/images/final_year_report/image10.png"><img src="/assets/images/final_year_report/image10.png"></a>
 	<figcaption>Figure 11, Grafana Container Creation</figcaption>
 </figure>
 
@@ -586,7 +587,7 @@ default, but will be explored further in the security testing part of
 this report.
 
 <figure>
-	<a href=/assets/images/final_year_report/image11.png"><img src="/assets/images/final_year_report/image11.png"></a>
+	<a href="/assets/images/final_year_report/image11.png"><img src="/assets/images/final_year_report/image11.png"></a>
 	<figcaption>Figure 12, Grafana Data Source Creation Creation</figcaption>
 </figure>
 
@@ -660,7 +661,7 @@ dashboard is created in Grafana connected to this. Two graphs are then
 created to display the data. They use the following queries
 
 <figure>
-	<a href=/assets/images/final_year_report/image12.png"><img src="/assets/images/final_year_report/image12.png"></a>
+	<a href="/assets/images/final_year_report/image12.png"><img src="/assets/images/final_year_report/image12.png"></a>
 </figure>
 
 This results in the query:
@@ -677,14 +678,14 @@ This results in the following graph after 1 hour of data has been
 received:
 
 <figure>
-	<a href=/assets/images/final_year_report/image13.png"><img src="/assets/images/final_year_report/image13.png"></a>
+	<a href="/assets/images/final_year_report/image13.png"><img src="/assets/images/final_year_report/image13.png"></a>
 </figure>
 
 To illustrate the effect of the time() grouping, this is the same data
 with time(1m):
 
 <figure>
-	<a href=/assets/images/final_year_report/image14.png"><img src="/assets/images/final_year_report/image14.png"></a>
+	<a href="/assets/images/final_year_report/image14.png"><img src="/assets/images/final_year_report/image14.png"></a>
 </figure>
 
 I<sup>2</sup>C Moisture Sensor
@@ -696,7 +697,7 @@ it. The 3.3v pin is connected to the VCC of the sensor stick and the
 SDA/SCL pins are connected for I<sup>2</sup>C to function.
 
 <figure>
-	<a href=/assets/images/final_year_report/image15.jpeg"><img src="/assets/images/final_year_report/image15.jpeg"></a>
+	<a href="/assets/images/final_year_report/image15.jpeg"><img src="/assets/images/final_year_report/image15.jpeg"></a>
 	<figcaption>Figure 13, Crude testing setup, not pictured: Plant Pot and NodeMCU.</figcaption>
 </figure>
 
@@ -712,7 +713,7 @@ light level. It then sleeps for a moment before repeating again. The
 sleep command drastically lowers the power usage of the sensor.
 
 <figure>
-	<a href=/assets/images/final_year_report/image16.png"><img src="/assets/images/final_year_report/image16.png"></a>
+	<a href="/assets/images/final_year_report/image16.png"><img src="/assets/images/final_year_report/image16.png"></a>
 	<figcaption>Figure 14, Example Output from Example Script</figcaption>
 </figure>
 
@@ -741,7 +742,7 @@ Fortunately, this worked perfectly, although the range was restricted to
 a 10-bit number (0 to 1023), this was more than adequate.
 
 <figure>
-	<a href=/assets/images/final_year_report/image17.png"><img src="/assets/images/final_year_report/image17.png"></a>
+	<a href="/assets/images/final_year_report/image17.png"><img src="/assets/images/final_year_report/image17.png"></a>
 	<figcaption>Figure 15, Testing of LDR</figcaption>
 </figure>
 
@@ -774,7 +775,7 @@ will also be wired to the RST pin, as this allows the ESP8266 to return
 from Deep Sleep.
 
 <figure>
-	<a href=/assets/images/final_year_report/image18.jpeg"><img src="/assets/images/final_year_report/image18.jpeg"></a>
+	<a href="/assets/images/final_year_report/image18.jpeg"><img src="/assets/images/final_year_report/image18.jpeg"></a>
 	<figcaption>Figure 16, NodeMCU V1.0 pin definition [23]</figcaption>
 </figure>
 
@@ -785,14 +786,14 @@ To aid in the design of this project, the tool Fritzing was used. Using
 this tool. it was possible to create the following breadboard layout.
 
 <figure>
-	<a href=/assets/images/final_year_report/image19.png"><img src="/assets/images/final_year_report/image19.png"></a>
+	<a href="/assets/images/final_year_report/image19.png"><img src="/assets/images/final_year_report/image19.png"></a>
 	<figcaption>Figure 17, Breadboard Layout</figcaption>
 </figure>
 
 This layout has the accompanying schematic as follows.
 
 <figure>
-	<a href=/assets/images/final_year_report/image20.png"><img src="/assets/images/final_year_report/image20.png"></a>
+	<a href="/assets/images/final_year_report/image20.png"><img src="/assets/images/final_year_report/image20.png"></a>
 	<figcaption>Figure 18, Schematic Layout</figcaption>
 </figure>
 
@@ -820,7 +821,7 @@ Software Design
 ---------------
 
 <figure>
-	<a href=/assets/images/final_year_report/image21.png"><img src="/assets/images/final_year_report/image21.png"></a>
+	<a href="/assets/images/final_year_report/image21.png"><img src="/assets/images/final_year_report/image21.png"></a>
 	<figcaption>Figure 19, Basic Flowchart of Software</figcaption>
 </figure>
 
@@ -951,7 +952,7 @@ enabled in the config. We can then verify the datagrams are being
 received through the SHOW STATS query.
 
 <figure>
-	<a href=/assets/images/final_year_report/image22.png"><img src="/assets/images/final_year_report/image22.png"></a>
+	<a href="/assets/images/final_year_report/image22.png"><img src="/assets/images/final_year_report/image22.png"></a>
 	<figcaption>Figure 20, UDP stats from InfluxDB Web Interface</figcaption>
 </figure>
 
@@ -959,7 +960,7 @@ With the device running, diagnostic data is then printed to serial as
 expected
 
 <figure>
-	<a href=/assets/images/final_year_report/image23.png"><img src="/assets/images/final_year_report/image23.png"></a>
+	<a href="/assets/images/final_year_report/image23.png"><img src="/assets/images/final_year_report/image23.png"></a>
 	<figcaption>Figure 21, Diagnostic info from device</figcaption>
 </figure>
 
@@ -1000,7 +1001,7 @@ Displaying data in Grafana
 --------------------------
 
 <figure>
-	<a href=/assets/images/final_year_report/image24.png"><img src="/assets/images/final_year_report/image24.png"></a>
+	<a href="/assets/images/final_year_report/image24.png"><img src="/assets/images/final_year_report/image24.png"></a>
 	<figcaption>Figure 22, Final Grafana Dashboard</figcaption>
 </figure>
 
@@ -1179,7 +1180,7 @@ Ion/Polymer charger - v2 from AdaFruit.
 Solar Lithium Ion/Polymer charger - v2
 
 <figure>
-	<a href=/assets/images/final_year_report/image25.jpeg"><img src="/assets/images/final_year_report/image25.jpeg"></a>
+	<a href="/assets/images/final_year_report/image25.jpeg"><img src="/assets/images/final_year_report/image25.jpeg"></a>
 	<figcaption>Figure 23, USB / DC / Solar Lithium Ion/Polymer charger - v2 [26]</figcaption>
 </figure>
 
@@ -1390,36 +1391,38 @@ areas of a garden.
 References
 =========================================================================================================
 
-[1] 	AdaFruit, “ESP8266 WiFi Module,” [Online]. Available: https://www.adafruit.com/product/2282. [Accessed 28 February 2017].
-[2] 	BangGood, “LoLin V3 NodeMcu Lua WIFI Development Board,” [Online]. Available: http://www.banggood.com/V3-NodeMcu-Lua-WIFI-Development-Board-p-992733.html. [Accessed 23 March 2017].
-[3] 	NodeMCU, “NodeMCU Features,” [Online]. Available: http://nodemcu.com/index_en.html#fr_54747361d775ef1a3600000f. [Accessed 28 February 2017].
-[4] 	“Getting started with MicroPython on the ESP8266,” [Online]. Available: https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html. [Accessed 28 February 2017].
-[5] 	B. Thomsen, “ESP8266 Getting Started with Arduino IDE,” [Online]. Available: https://bennthomsen.wordpress.com/iot/iot-things/esp8266-wifi-soc/esp8266-getting-started-with-arduino-ide/. [Accessed 28 February 2017].
-[6] 	Arduino, “Arduino Nano,” [Online]. Available: https://www.arduino.cc/en/Main/ArduinoBoardNano. [Accessed 16 April 2017].
-[7] 	The MagPI Magazine, “INTRODUCING RASPBERRY PI ZERO W,” [Online]. Available: https://www.raspberrypi.org/magpi/pi-zero-w/. [Accessed 16 April 2017].
-[8] 	WeMos, “D1 mini,” [Online]. Available: https://www.wemos.cc/product/d1-mini.html. [Accessed 17 April 2017].
-[9] 	Catnip Electronics, “I2C Soil moisture sensor,” 16 June 2015. [Online]. Available: https://www.tindie.com/products/miceuz/i2c-soil-moisture-sensor/. [Accessed 16 March 2017].
-[10] 	i2c.info, “I2C Bus Specification,” [Online]. Available: http://i2c.info/i2c-bus-specification. [Accessed 13 March 2017].
-[11] 	InfluxDB, “InfluxDB README.md,” 18 January 2017. [Online]. Available: https://github.com/influxdata/influxdb/blob/master/README.md. [Accessed 14 March 2017].
-[12] 	InfluxDB, “InfluxDB Key Concepts,” [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/concepts/key_concepts/#tag-key. [Accessed 14 March 2017].
-[13] 	InfluxDB, “InfluxDB: Writing Data,” [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/guides/writing_data/. [Accessed 14 March 2017].
-[14] 	DB-Engines, “DB-Engines Ranking of Time Series DBMS,” DB-Engines, April 2017. [Online]. Available: https://db-engines.com/en/ranking/time+series+dbms. [Accessed 24 April 2017].
-[15] 	OpenTSDB, “How does OPenTSDB work?,” [Online]. Available: http://opentsdb.net/overview.html. [Accessed 23 March 2017].
-[16] 	Grafana, “Grafana: Basic Concepts,” 2017. [Online]. Available: http://docs.grafana.org/guides/basic_concepts/. [Accessed 18 March 2017].
-[17] 	LimeTech, “Network-Attached Storage,” [Online]. Available: https://lime-technology.com/network-attached-storage/. [Accessed 20 April 2017].
-[18] 	Docker, “What is a Container,” 2017. [Online]. Available: https://www.docker.com/what-container. [Accessed 4 April 2017].
-[19] 	InfluxDB, “Web Admin Interface,” 12 March 2017. [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/tools/web_admin/. [Accessed 12 March 2017].
-[20] 	InfluxDB, “InfluxDB-Python,” 21 February 2017. [Online]. Available: https://github.com/influxdata/influxdb-python/blob/master/influxdb/client.py#L395. [Accessed 13 March 2017].
-[21] 	Apollon77, “I2CSoilMoistureSensor,” 3 March 2017. [Online]. Available: https://github.com/Apollon77/I2CSoilMoistureSensor. [Accessed 27 March 2017].
-[22] 	T. Foxworth, “MAKING THE ESP8266 LOW-POWERED WITH DEEP SLEEP,” 21 March 2017. [Online]. Available: https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep. [Accessed 12 April 2017].
-[23] 	A. Gerber, “Getting started with Espruino on ESP8266,” 2016. [Online]. Available: http://crufti.com/getting-started-with-espruino-on-esp8266/. [Accessed 27 April 2017].
-[24] 	T. Persen, “How to send sensor data to InfluxDB from an Arduino Uno,” 29 September 2015. [Online]. Available: https://www.influxdata.com/how-to-send-sensor-data-to-influxdb-from-an-arduino-uno/. [Accessed 14 April 2017].
-[25] 	simonrobb, “After calling sensor.sleep(), can't read value #8,” 7 March 2017. [Online]. Available: https://github.com/Apollon77/I2CSoilMoistureSensor/issues/8. [Accessed 17 April 2017].
-[26] 	Adafruit, “USB / DC / Solar Lithium Ion/Polymer charger - v2,” [Online]. Available: https://www.adafruit.com/product/390. [Accessed 4 May 2017].
-[27] 	Met Eireann, “Sunshine and Solar Radiation,” [Online]. Available: http://www.met.ie/climate-ireland/sunshine.asp. [Accessed 4 May 2017].
-[28] 	Let's Encrypt, “About Let's Encrypt,” 2017. [Online]. Available: https://letsencrypt.org/about/. [Accessed 26 April 2017].
-[29] 	nginx, “nginx,” [Online]. Available: https://nginx.org/en/. [Accessed 18 May 2017].
-[30] 	Netcraft, “April 2017 Web Server Survey,” April 2017. [Online]. Available: https://news.netcraft.com/archives/2017/04/21/april-2017-web-server-survey.html. [Accessed 18 May 2017].
+| Ref No.	| Reference |
+|--|
+| [1] |	AdaFruit, “ESP8266 WiFi Module,” [Online]. Available: https://www.adafruit.com/product/2282. [Accessed 28 February 2017].|
+| [2] |	BangGood, “LoLin V3 NodeMcu Lua WIFI Development Board,” [Online]. Available: http://www.banggood.com/V3-NodeMcu-Lua-WIFI-Development-Board-p-992733.html. [Accessed 23 March 2017].|
+| [3] | 	NodeMCU, “NodeMCU Features,” [Online]. Available: http://nodemcu.com/index_en.html#fr_54747361d775ef1a3600000f. [Accessed 28 February 2017].|
+| [4] | 	“Getting started with MicroPython on the ESP8266,” [Online]. Available: https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html. [Accessed 28 February 2017].|
+| [5]| 	B. Thomsen, “ESP8266 Getting Started with Arduino IDE,” [Online]. Available: https://bennthomsen.wordpress.com/iot/iot-things/esp8266-wifi-soc/esp8266-getting-started-with-arduino-ide/. [Accessed 28 February 2017].|
+| [6]| 	Arduino, “Arduino Nano,” [Online]. Available: https://www.arduino.cc/en/Main/ArduinoBoardNano. [Accessed 16 April 2017].|
+| [7]| 	The MagPI Magazine, “INTRODUCING RASPBERRY PI ZERO W,” [Online]. Available: https://www.raspberrypi.org/magpi/pi-zero-w/. [Accessed 16 April 2017].|
+| [8]| 	WeMos, “D1 mini,” [Online]. Available: https://www.wemos.cc/product/d1-mini.html. [Accessed 17 April 2017].|
+| [9]| 	Catnip Electronics, “I2C Soil moisture sensor,” 16 June 2015. [Online]. Available: https://www.tindie.com/products/miceuz/i2c-soil-moisture-sensor/. [Accessed 16 March 2017].|
+| [10]| 	i2c.info, “I2C Bus Specification,” [Online]. Available: http://i2c.info/i2c-bus-specification. [Accessed 13 March 2017].|
+| [11]| 	InfluxDB, “InfluxDB README.md,” 18 January 2017. [Online]. Available: https://github.com/influxdata/influxdb/blob/master/README.md. [Accessed 14 March 2017].|
+| [12]| 	InfluxDB, “InfluxDB Key Concepts,” [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/concepts/key_concepts/#tag-key. [Accessed 14 March 2017].|
+| [13]| 	InfluxDB, “InfluxDB: Writing Data,” [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/guides/writing_data/. [Accessed 14 March 2017].|
+| [14]| 	DB-Engines, “DB-Engines Ranking of Time Series DBMS,” DB-Engines, April 2017. [Online]. Available: https://db-engines.com/en/ranking/time+series+dbms. [Accessed 24 April 2017].|
+| [15]| 	OpenTSDB, “How does OPenTSDB work?,” [Online]. Available: http://opentsdb.net/overview.html. [Accessed 23 March 2017].|
+| [16]| 	Grafana, “Grafana: Basic Concepts,” 2017. [Online]. Available: http://docs.grafana.org/guides/basic_concepts/. [Accessed 18 March 2017].|
+| [17]| 	LimeTech, “Network-Attached Storage,” [Online]. Available: https://lime-technology.com/network-attached-storage/. [Accessed 20 April 2017].|
+| [18]|	Docker, “What is a Container,” 2017. [Online]. Available: https://www.docker.com/what-container. [Accessed 4 April 2017].|
+| [19]| 	InfluxDB, “Web Admin Interface,” 12 March 2017. [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/tools/web_admin/. [Accessed 12 March 2017].|
+| [20]| 	InfluxDB, “InfluxDB-Python,” 21 February 2017. [Online]. Available: https://github.com/influxdata/influxdb-python/blob/master/influxdb/client.py#L395. [Accessed 13 March 2017].|
+| [21]| 	Apollon77, “I2CSoilMoistureSensor,” 3 March 2017. [Online]. Available: https://github.com/Apollon77/I2CSoilMoistureSensor. [Accessed 27 March 2017].|
+| [22]| 	T. Foxworth, “MAKING THE ESP8266 LOW-POWERED WITH DEEP SLEEP,” 21 March 2017. [Online]. Available: https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep. [Accessed 12 April 2017].|
+| [23]| 	A. Gerber, “Getting started with Espruino on ESP8266,” 2016. [Online]. Available: http://crufti.com/getting-started-with-espruino-on-esp8266/. [Accessed 27 April 2017].|
+| [24]| 	T. Persen, “How to send sensor data to InfluxDB from an Arduino Uno,” 29 September 2015. [Online]. Available: https://www.influxdata.com/how-to-send-sensor-data-to-influxdb-from-an-arduino-uno/. [Accessed 14 April 2017].|
+| [25]| 	simonrobb, “After calling sensor.sleep(), can't read value #8,” 7 March 2017. [Online]. Available: https://github.com/Apollon77/I2CSoilMoistureSensor/issues/8. [Accessed 17 April 2017].|
+| [26]| 	Adafruit, “USB / DC / Solar Lithium Ion/Polymer charger - v2,” [Online]. Available: https://www.adafruit.com/product/390. [Accessed 4 May 2017].|
+| [27]| 	Met Eireann, “Sunshine and Solar Radiation,” [Online]. Available: http://www.met.ie/climate-ireland/sunshine.asp. [Accessed 4 May 2017].|
+| [28]| 	Let's Encrypt, “About Let's Encrypt,” 2017. [Online]. Available: https://letsencrypt.org/about/. [Accessed 26 April 2017].|
+| [29]| 	nginx, “nginx,” [Online]. Available: https://nginx.org/en/. [Accessed 18 May 2017].|
+| [30]| 	Netcraft, “April 2017 Web Server Survey,” April 2017. [Online]. Available: https://news.netcraft.com/archives/2017/04/21/april-2017-web-server-survey.html. [Accessed 18 May 2017].|
 
 
 
