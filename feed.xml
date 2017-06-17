@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://sdunbar.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sdunbar.me/" rel="alternate" type="text/html" /><updated>2017-06-07T02:09:07+00:00</updated><id>https://sdunbar.me/</id><title type="html">Technobabble</title><subtitle>Sean's Blog'</subtitle><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><entry><title type="html">Final Year Project - Preliminary Report</title><link href="https://sdunbar.me/college/final-year-project/" rel="alternate" type="text/html" title="Final Year Project - Preliminary Report" /><published>2017-06-06T00:00:00+00:00</published><updated>2017-06-06T00:00:00+00:00</updated><id>https://sdunbar.me/college/final-year-project</id><content type="html" xml:base="https://sdunbar.me/college/final-year-project/">&lt;h1 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://sdunbar.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sdunbar.me/" rel="alternate" type="text/html" /><updated>2017-06-17T18:01:37+00:00</updated><id>https://sdunbar.me/</id><title type="html">Technobabble</title><subtitle>Sean's Blog'</subtitle><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><entry><title type="html"></title><link href="https://sdunbar.me/2017-06-12-sfg-week1/" rel="alternate" type="text/html" title="" /><published>2017-06-17T18:01:37+00:00</published><updated>2017-06-17T18:01:37+00:00</updated><id>https://sdunbar.me/2017-06-12-sfg-week1</id><content type="html" xml:base="https://sdunbar.me/2017-06-12-sfg-week1/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+&lt;p&gt;I’ve always wanted to grow vegetables and fruit at home, so this summer I decided to start a raised bed,
+where I’d be able to grow a number of plants without having to dig up the entire garden.&lt;/p&gt;
+
+&lt;p&gt;I decided to follow the ideas of “Square Foot Gardening”. This was based around the concept of planter allotments
+that would be 4 square foot; Square Foot Gardening is basing the layout of a planter around square foot sized cells.&lt;/p&gt;
+
+&lt;h1 id=&quot;planning&quot;&gt;Planning&lt;/h1&gt;
+&lt;p&gt;I decided to first plan out what plants I wanted to grow in the end. I came up with the following:&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/plan.png&quot;&gt;&lt;img src=&quot;/assets/images/sfg/plan.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;SFG Plan&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I then bought a Planter kit from &lt;a href=&quot;quickcrop.ie/&quot;&gt;Quickcrop&lt;/a&gt; and just enough soil to fill it. I settled
+on the 6x4 foot planter with trellis, as I wanted to grow butternut squash and tomatoes and they need support to grow tall.&lt;/p&gt;
+
+&lt;h1 id=&quot;current-progress&quot;&gt;Current Progress&lt;/h1&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/week1.jpg&quot;&gt;&lt;img src=&quot;/assets/images/sfg/week1.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Week 1&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As you can see above, the plants are only just moved out, having been sprouted indoors in the last few weeks.&lt;/p&gt;
+
+&lt;h1 id=&quot;future-plans&quot;&gt;Future Plans&lt;/h1&gt;
+
+&lt;p&gt;Closer to August, I will need to order some garlic sets, as they are overwintered. I also have ordered some cheap 
+wooden dowels to better mark out the square foot cells and will reposition plants as needed, which is only possible
+right now as the plants are still very small.&lt;/p&gt;
+
+&lt;p&gt;I may infact be able to order the live plants I need from Quickcrop, but will need to check that it is not too late in the year,
+which I fear it is.&lt;/p&gt;
+
+&lt;p&gt;I also plan to replace the pumpkins with potates after this year, as the variety I have is Atlantic Giant and am only 
+growing them for the novelty, instead of taste, like the butternut squash.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author></entry><entry><title type="html">Final Year Project - Preliminary Report</title><link href="https://sdunbar.me/college/final-year-project/" rel="alternate" type="text/html" title="Final Year Project - Preliminary Report" /><published>2017-06-06T00:00:00+00:00</published><updated>2017-06-06T00:00:00+00:00</updated><id>https://sdunbar.me/college/final-year-project</id><content type="html" xml:base="https://sdunbar.me/college/final-year-project/">&lt;h1 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h1&gt;
 
 &lt;p&gt;I would like to thank Frank Duignan primarily for providing the
 assistance I needed with the electronics aspects of this project, mainly
@@ -288,7 +325,7 @@ integrated WiFi. It features an 802.11b/g/n capabilities and is directly
 programmable, but can also interface with other SBCs such as an Arduino. [1]&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image3.jpeg&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image3.jpeg&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image3.jpeg&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image3.jpeg&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 1, LoLin NodeMCU [2]&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -312,24 +349,78 @@ project.&lt;/p&gt;
 
 &lt;h6 id=&quot;technical-specs&quot;&gt;Technical Specs&lt;/h6&gt;
 
-&lt;p&gt;| Microcontroller         | ATmega328                    |
-|————————-|——————————|
-| Architecture            | AVR                          |
-| Operating Voltage       | 5V                           |
-| Flash Memory            | 32KB, 2KB used by bootloader |
-| SRAM                    | 2KB                          |
-| Clock Speed             | 16MHz                        |
-| Analog I/O Pins         | 8                            |
-| EEPROM                  | 1KB                          |
-| DC Current per I/O Pins | 40mA                         |
-| Input Voltage           | 7-12V                        |
-| Digital I/O Pins        | 22                           |
-| PWM Output              | 6                            |
-| Power Consumption       | 19mA                         |
-| PCB Size                | 18 x 45mm                    |
-| Weight                  | 7g                           |
-| Product Code            | A000005                      |
-Figure 2, Arduino Nano Technical Specs [6]&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Microcontroller&lt;/th&gt;
+      &lt;th&gt;ATmega328&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Architecture&lt;/td&gt;
+      &lt;td&gt;AVR&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Operating Voltage&lt;/td&gt;
+      &lt;td&gt;5V&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Flash Memory&lt;/td&gt;
+      &lt;td&gt;32KB, 2KB used by bootloader&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SRAM&lt;/td&gt;
+      &lt;td&gt;2KB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Clock Speed&lt;/td&gt;
+      &lt;td&gt;16MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Analog I/O Pins&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EEPROM&lt;/td&gt;
+      &lt;td&gt;1KB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DC Current per I/O Pins&lt;/td&gt;
+      &lt;td&gt;40mA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Input Voltage&lt;/td&gt;
+      &lt;td&gt;7-12V&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Digital I/O Pins&lt;/td&gt;
+      &lt;td&gt;22&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PWM Output&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Power Consumption&lt;/td&gt;
+      &lt;td&gt;19mA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PCB Size&lt;/td&gt;
+      &lt;td&gt;18 x 45mm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Weight&lt;/td&gt;
+      &lt;td&gt;7g&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Product Code&lt;/td&gt;
+      &lt;td&gt;A000005&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Figure 2, Arduino Nano Technical Specs [6]&lt;/p&gt;
 
 &lt;h5 id=&quot;raspberry-pi-zero-w&quot;&gt;Raspberry Pi Zero W&lt;/h5&gt;
 
@@ -512,7 +603,7 @@ for transmission, it is then up to the master to generate the STOP
 condition or repeated START. [10]&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image4.gif&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image4.gif&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image4.gif&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image4.gif&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 5, I2C Data Transfer example [10]&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -524,7 +615,7 @@ slave is being written to or read from. When communication is finished,
 a STOP condition is generated as it is above.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image5.gif&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image5.gif&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image5.gif&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image5.gif&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 6, I2C Data Transfer with 7-bit addresses [10]&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -537,7 +628,7 @@ will send the repeated START condition instead of STOP and then start
 communicating again. [10]&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image6.gif&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image6.gif&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image6.gif&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image6.gif&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 7, I2C Data Transfer with 7-bit addresses, Repeated START [10]&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -554,7 +645,7 @@ under a trigger condition, an LED was enabled in its place. This was
 achieved with a simple design:&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image7.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image7.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image7.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image7.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 8, LED Diagram&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -566,7 +657,7 @@ in design and a replacement had to be found. With the help of Frank
 Duignan, a simple LDR + resistor setup was devised as follows:&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image8.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image8.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image8.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image8.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 9, LDR Diagram&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -744,7 +835,7 @@ on a home server. These Docker containers were installed on an UnRAID
 server as follows:&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image9.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image9.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image9.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image9.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 10, InfluxDB Container Creation&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -756,7 +847,7 @@ writing to the database. By default, it is unsecured any anyone can
 access it.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image10.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image10.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image10.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image10.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 11, Grafana Container Creation&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -769,7 +860,7 @@ default, but will be explored further in the security testing part of
 this report.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image11.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image11.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image11.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image11.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 12, Grafana Data Source Creation Creation&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -843,7 +934,7 @@ dashboard is created in Grafana connected to this. Two graphs are then
 created to display the data. They use the following queries&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image12.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image12.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image12.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image12.png&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;This results in the query:&lt;/p&gt;
@@ -860,14 +951,14 @@ auto-fitting the graph to the data.&lt;/p&gt;
 received:&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image13.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image13.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image13.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image13.png&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;To illustrate the effect of the time() grouping, this is the same data
 with time(1m):&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image14.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image14.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image14.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image14.png&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;i2c-moisture-sensor-1&quot;&gt;I&lt;sup&gt;2&lt;/sup&gt;C Moisture Sensor&lt;/h2&gt;
@@ -878,7 +969,7 @@ it. The 3.3v pin is connected to the VCC of the sensor stick and the
 SDA/SCL pins are connected for I&lt;sup&gt;2&lt;/sup&gt;C to function.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image15.jpeg&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image15.jpeg&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image15.jpeg&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image15.jpeg&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 13, Crude testing setup, not pictured: Plant Pot and NodeMCU.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -894,7 +985,7 @@ light level. It then sleeps for a moment before repeating again. The
 sleep command drastically lowers the power usage of the sensor.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image16.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image16.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image16.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image16.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 14, Example Output from Example Script&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -923,7 +1014,7 @@ light sensor method with a simple analogue read:&lt;/p&gt;
 a 10-bit number (0 to 1023), this was more than adequate.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image17.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image17.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image17.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image17.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 15, Testing of LDR&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -954,7 +1045,7 @@ will also be wired to the RST pin, as this allows the ESP8266 to return
 from Deep Sleep.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image18.jpeg&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image18.jpeg&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image18.jpeg&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image18.jpeg&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 16, NodeMCU V1.0 pin definition [23]&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -965,14 +1056,14 @@ layout of the final breadboard.&lt;/p&gt;
 this tool. it was possible to create the following breadboard layout.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image19.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image19.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image19.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image19.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 17, Breadboard Layout&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;This layout has the accompanying schematic as follows.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image20.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image20.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image20.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image20.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 18, Schematic Layout&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -999,7 +1090,7 @@ cuts down on power usage.&lt;/p&gt;
 &lt;h2 id=&quot;software-design&quot;&gt;Software Design&lt;/h2&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image21.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image21.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image21.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image21.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 19, Basic Flowchart of Software&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1127,7 +1218,7 @@ enabled in the config. We can then verify the datagrams are being
 received through the SHOW STATS query.&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image22.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image22.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image22.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image22.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 20, UDP stats from InfluxDB Web Interface&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1135,7 +1226,7 @@ received through the SHOW STATS query.&lt;/p&gt;
 expected&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image23.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image23.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image23.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image23.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 21, Diagnostic info from device&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1174,7 +1265,7 @@ means the device will be active only 0.91% of the time.&lt;/p&gt;
 &lt;h2 id=&quot;displaying-data-in-grafana&quot;&gt;Displaying data in Grafana&lt;/h2&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image24.png&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image24.png&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image24.png&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image24.png&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 22, Final Grafana Dashboard&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1346,7 +1437,7 @@ Ion/Polymer charger - v2 from AdaFruit.&lt;/p&gt;
 Solar Lithium Ion/Polymer charger - v2&lt;/p&gt;
 
 &lt;figure&gt;
-	&amp;lt;a href=/assets/images/final_year_report/image25.jpeg&quot;&amp;gt;&lt;img src=&quot;/assets/images/final_year_report/image25.jpeg&quot; /&gt;&amp;lt;/a&amp;gt;
+	&lt;a href=&quot;/assets/images/final_year_report/image25.jpeg&quot;&gt;&lt;img src=&quot;/assets/images/final_year_report/image25.jpeg&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Figure 23, USB / DC / Solar Lithium Ion/Polymer charger - v2 [26]&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1552,36 +1643,136 @@ areas of a garden.&lt;/p&gt;
 
 &lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
 
-&lt;p&gt;[1] 	AdaFruit, “ESP8266 WiFi Module,” [Online]. Available: https://www.adafruit.com/product/2282. [Accessed 28 February 2017].
-[2] 	BangGood, “LoLin V3 NodeMcu Lua WIFI Development Board,” [Online]. Available: http://www.banggood.com/V3-NodeMcu-Lua-WIFI-Development-Board-p-992733.html. [Accessed 23 March 2017].
-[3] 	NodeMCU, “NodeMCU Features,” [Online]. Available: http://nodemcu.com/index_en.html#fr_54747361d775ef1a3600000f. [Accessed 28 February 2017].
-[4] 	“Getting started with MicroPython on the ESP8266,” [Online]. Available: https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html. [Accessed 28 February 2017].
-[5] 	B. Thomsen, “ESP8266 Getting Started with Arduino IDE,” [Online]. Available: https://bennthomsen.wordpress.com/iot/iot-things/esp8266-wifi-soc/esp8266-getting-started-with-arduino-ide/. [Accessed 28 February 2017].
-[6] 	Arduino, “Arduino Nano,” [Online]. Available: https://www.arduino.cc/en/Main/ArduinoBoardNano. [Accessed 16 April 2017].
-[7] 	The MagPI Magazine, “INTRODUCING RASPBERRY PI ZERO W,” [Online]. Available: https://www.raspberrypi.org/magpi/pi-zero-w/. [Accessed 16 April 2017].
-[8] 	WeMos, “D1 mini,” [Online]. Available: https://www.wemos.cc/product/d1-mini.html. [Accessed 17 April 2017].
-[9] 	Catnip Electronics, “I2C Soil moisture sensor,” 16 June 2015. [Online]. Available: https://www.tindie.com/products/miceuz/i2c-soil-moisture-sensor/. [Accessed 16 March 2017].
-[10] 	i2c.info, “I2C Bus Specification,” [Online]. Available: http://i2c.info/i2c-bus-specification. [Accessed 13 March 2017].
-[11] 	InfluxDB, “InfluxDB README.md,” 18 January 2017. [Online]. Available: https://github.com/influxdata/influxdb/blob/master/README.md. [Accessed 14 March 2017].
-[12] 	InfluxDB, “InfluxDB Key Concepts,” [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/concepts/key_concepts/#tag-key. [Accessed 14 March 2017].
-[13] 	InfluxDB, “InfluxDB: Writing Data,” [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/guides/writing_data/. [Accessed 14 March 2017].
-[14] 	DB-Engines, “DB-Engines Ranking of Time Series DBMS,” DB-Engines, April 2017. [Online]. Available: https://db-engines.com/en/ranking/time+series+dbms. [Accessed 24 April 2017].
-[15] 	OpenTSDB, “How does OPenTSDB work?,” [Online]. Available: http://opentsdb.net/overview.html. [Accessed 23 March 2017].
-[16] 	Grafana, “Grafana: Basic Concepts,” 2017. [Online]. Available: http://docs.grafana.org/guides/basic_concepts/. [Accessed 18 March 2017].
-[17] 	LimeTech, “Network-Attached Storage,” [Online]. Available: https://lime-technology.com/network-attached-storage/. [Accessed 20 April 2017].
-[18] 	Docker, “What is a Container,” 2017. [Online]. Available: https://www.docker.com/what-container. [Accessed 4 April 2017].
-[19] 	InfluxDB, “Web Admin Interface,” 12 March 2017. [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/tools/web_admin/. [Accessed 12 March 2017].
-[20] 	InfluxDB, “InfluxDB-Python,” 21 February 2017. [Online]. Available: https://github.com/influxdata/influxdb-python/blob/master/influxdb/client.py#L395. [Accessed 13 March 2017].
-[21] 	Apollon77, “I2CSoilMoistureSensor,” 3 March 2017. [Online]. Available: https://github.com/Apollon77/I2CSoilMoistureSensor. [Accessed 27 March 2017].
-[22] 	T. Foxworth, “MAKING THE ESP8266 LOW-POWERED WITH DEEP SLEEP,” 21 March 2017. [Online]. Available: https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep. [Accessed 12 April 2017].
-[23] 	A. Gerber, “Getting started with Espruino on ESP8266,” 2016. [Online]. Available: http://crufti.com/getting-started-with-espruino-on-esp8266/. [Accessed 27 April 2017].
-[24] 	T. Persen, “How to send sensor data to InfluxDB from an Arduino Uno,” 29 September 2015. [Online]. Available: https://www.influxdata.com/how-to-send-sensor-data-to-influxdb-from-an-arduino-uno/. [Accessed 14 April 2017].
-[25] 	simonrobb, “After calling sensor.sleep(), can’t read value #8,” 7 March 2017. [Online]. Available: https://github.com/Apollon77/I2CSoilMoistureSensor/issues/8. [Accessed 17 April 2017].
-[26] 	Adafruit, “USB / DC / Solar Lithium Ion/Polymer charger - v2,” [Online]. Available: https://www.adafruit.com/product/390. [Accessed 4 May 2017].
-[27] 	Met Eireann, “Sunshine and Solar Radiation,” [Online]. Available: http://www.met.ie/climate-ireland/sunshine.asp. [Accessed 4 May 2017].
-[28] 	Let’s Encrypt, “About Let’s Encrypt,” 2017. [Online]. Available: https://letsencrypt.org/about/. [Accessed 26 April 2017].
-[29] 	nginx, “nginx,” [Online]. Available: https://nginx.org/en/. [Accessed 18 May 2017].
-[30] 	Netcraft, “April 2017 Web Server Survey,” April 2017. [Online]. Available: https://news.netcraft.com/archives/2017/04/21/april-2017-web-server-survey.html. [Accessed 18 May 2017].&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Report" /><category term="Plant" /><summary type="html">This is the preliminary report I submitted for my Final Year Project in DT080B</summary></entry><entry><title type="html">Final Year Project - Preliminary Report</title><link href="https://sdunbar.me/college/final-year-project-prelim-report/" rel="alternate" type="text/html" title="Final Year Project - Preliminary Report" /><published>2017-02-18T00:00:00+00:00</published><updated>2017-02-18T00:00:00+00:00</updated><id>https://sdunbar.me/college/final-year-project-prelim-report</id><content type="html" xml:base="https://sdunbar.me/college/final-year-project-prelim-report/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Ref No.&lt;/th&gt;
+      &lt;th&gt;Reference&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[1]&lt;/td&gt;
+      &lt;td&gt;AdaFruit, “ESP8266 WiFi Module,” [Online]. Available: https://www.adafruit.com/product/2282. [Accessed 28 February 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[2]&lt;/td&gt;
+      &lt;td&gt;BangGood, “LoLin V3 NodeMcu Lua WIFI Development Board,” [Online]. Available: http://www.banggood.com/V3-NodeMcu-Lua-WIFI-Development-Board-p-992733.html. [Accessed 23 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[3]&lt;/td&gt;
+      &lt;td&gt;NodeMCU, “NodeMCU Features,” [Online]. Available: http://nodemcu.com/index_en.html#fr_54747361d775ef1a3600000f. [Accessed 28 February 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[4]&lt;/td&gt;
+      &lt;td&gt;“Getting started with MicroPython on the ESP8266,” [Online]. Available: https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html. [Accessed 28 February 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[5]&lt;/td&gt;
+      &lt;td&gt;B. Thomsen, “ESP8266 Getting Started with Arduino IDE,” [Online]. Available: https://bennthomsen.wordpress.com/iot/iot-things/esp8266-wifi-soc/esp8266-getting-started-with-arduino-ide/. [Accessed 28 February 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[6]&lt;/td&gt;
+      &lt;td&gt;Arduino, “Arduino Nano,” [Online]. Available: https://www.arduino.cc/en/Main/ArduinoBoardNano. [Accessed 16 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[7]&lt;/td&gt;
+      &lt;td&gt;The MagPI Magazine, “INTRODUCING RASPBERRY PI ZERO W,” [Online]. Available: https://www.raspberrypi.org/magpi/pi-zero-w/. [Accessed 16 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[8]&lt;/td&gt;
+      &lt;td&gt;WeMos, “D1 mini,” [Online]. Available: https://www.wemos.cc/product/d1-mini.html. [Accessed 17 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[9]&lt;/td&gt;
+      &lt;td&gt;Catnip Electronics, “I2C Soil moisture sensor,” 16 June 2015. [Online]. Available: https://www.tindie.com/products/miceuz/i2c-soil-moisture-sensor/. [Accessed 16 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[10]&lt;/td&gt;
+      &lt;td&gt;i2c.info, “I2C Bus Specification,” [Online]. Available: http://i2c.info/i2c-bus-specification. [Accessed 13 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[11]&lt;/td&gt;
+      &lt;td&gt;InfluxDB, “InfluxDB README.md,” 18 January 2017. [Online]. Available: https://github.com/influxdata/influxdb/blob/master/README.md. [Accessed 14 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[12]&lt;/td&gt;
+      &lt;td&gt;InfluxDB, “InfluxDB Key Concepts,” [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/concepts/key_concepts/#tag-key. [Accessed 14 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[13]&lt;/td&gt;
+      &lt;td&gt;InfluxDB, “InfluxDB: Writing Data,” [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/guides/writing_data/. [Accessed 14 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[14]&lt;/td&gt;
+      &lt;td&gt;DB-Engines, “DB-Engines Ranking of Time Series DBMS,” DB-Engines, April 2017. [Online]. Available: https://db-engines.com/en/ranking/time+series+dbms. [Accessed 24 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[15]&lt;/td&gt;
+      &lt;td&gt;OpenTSDB, “How does OPenTSDB work?,” [Online]. Available: http://opentsdb.net/overview.html. [Accessed 23 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[16]&lt;/td&gt;
+      &lt;td&gt;Grafana, “Grafana: Basic Concepts,” 2017. [Online]. Available: http://docs.grafana.org/guides/basic_concepts/. [Accessed 18 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[17]&lt;/td&gt;
+      &lt;td&gt;LimeTech, “Network-Attached Storage,” [Online]. Available: https://lime-technology.com/network-attached-storage/. [Accessed 20 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[18]&lt;/td&gt;
+      &lt;td&gt;Docker, “What is a Container,” 2017. [Online]. Available: https://www.docker.com/what-container. [Accessed 4 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[19]&lt;/td&gt;
+      &lt;td&gt;InfluxDB, “Web Admin Interface,” 12 March 2017. [Online]. Available: https://docs.influxdata.com/influxdb/v1.2/tools/web_admin/. [Accessed 12 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[20]&lt;/td&gt;
+      &lt;td&gt;InfluxDB, “InfluxDB-Python,” 21 February 2017. [Online]. Available: https://github.com/influxdata/influxdb-python/blob/master/influxdb/client.py#L395. [Accessed 13 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[21]&lt;/td&gt;
+      &lt;td&gt;Apollon77, “I2CSoilMoistureSensor,” 3 March 2017. [Online]. Available: https://github.com/Apollon77/I2CSoilMoistureSensor. [Accessed 27 March 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[22]&lt;/td&gt;
+      &lt;td&gt;T. Foxworth, “MAKING THE ESP8266 LOW-POWERED WITH DEEP SLEEP,” 21 March 2017. [Online]. Available: https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep. [Accessed 12 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[23]&lt;/td&gt;
+      &lt;td&gt;A. Gerber, “Getting started with Espruino on ESP8266,” 2016. [Online]. Available: http://crufti.com/getting-started-with-espruino-on-esp8266/. [Accessed 27 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[24]&lt;/td&gt;
+      &lt;td&gt;T. Persen, “How to send sensor data to InfluxDB from an Arduino Uno,” 29 September 2015. [Online]. Available: https://www.influxdata.com/how-to-send-sensor-data-to-influxdb-from-an-arduino-uno/. [Accessed 14 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[25]&lt;/td&gt;
+      &lt;td&gt;simonrobb, “After calling sensor.sleep(), can’t read value #8,” 7 March 2017. [Online]. Available: https://github.com/Apollon77/I2CSoilMoistureSensor/issues/8. [Accessed 17 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[26]&lt;/td&gt;
+      &lt;td&gt;Adafruit, “USB / DC / Solar Lithium Ion/Polymer charger - v2,” [Online]. Available: https://www.adafruit.com/product/390. [Accessed 4 May 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[27]&lt;/td&gt;
+      &lt;td&gt;Met Eireann, “Sunshine and Solar Radiation,” [Online]. Available: http://www.met.ie/climate-ireland/sunshine.asp. [Accessed 4 May 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[28]&lt;/td&gt;
+      &lt;td&gt;Let’s Encrypt, “About Let’s Encrypt,” 2017. [Online]. Available: https://letsencrypt.org/about/. [Accessed 26 April 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[29]&lt;/td&gt;
+      &lt;td&gt;nginx, “nginx,” [Online]. Available: https://nginx.org/en/. [Accessed 18 May 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[30]&lt;/td&gt;
+      &lt;td&gt;Netcraft, “April 2017 Web Server Survey,” April 2017. [Online]. Available: https://news.netcraft.com/archives/2017/04/21/april-2017-web-server-survey.html. [Accessed 18 May 2017].&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Report" /><category term="Plant" /><summary type="html">This is the preliminary report I submitted for my Final Year Project in DT080B</summary></entry><entry><title type="html">Final Year Project - Preliminary Report</title><link href="https://sdunbar.me/college/final-year-project-prelim-report/" rel="alternate" type="text/html" title="Final Year Project - Preliminary Report" /><published>2017-02-18T00:00:00+00:00</published><updated>2017-02-18T00:00:00+00:00</updated><id>https://sdunbar.me/college/final-year-project-prelim-report</id><content type="html" xml:base="https://sdunbar.me/college/final-year-project-prelim-report/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;p&gt;The purpose of this Preliminary Report is to explain the objectives of the project and provide a timeline of events that need to be achieved. This will be done in the following manner:&lt;/p&gt;
 
