@@ -15,7 +15,7 @@ name                     : "Sean Dunbar"
 description              : "Sean's Blog'"
 url                      : "https://sdunbar.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "venomireland/venomireland.github.io"
+repository               : "ajubatus/ajubatus.github.io"
 teaser                   : "/assets/images/teaser.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Sean Dunbar"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am 22 year old male currently studying Networking Applications and Services in DIT"
+  bio              : "I am 22 year old male currently working at Google in the Internal Technology Resident Program"
   location         : "Dublin"
   email            : sean@sdunbar.me
   uri              :
@@ -91,7 +91,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : venomireland
+  github           : ajubatus
   google_plus      :
   keybase          :
   instagram        :
@@ -272,8 +272,8 @@ defaults:
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-username: venomireland
-repo: venomireland.github.io
+username: ajubatus
+repo: ajubatus.github.io
 source_branch: source
 destination_brach: master
 destination: ../gh-pages/
