@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://sdunbar.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sdunbar.me/" rel="alternate" type="text/html" /><updated>2017-07-19T21:11:45+00:00</updated><id>https://sdunbar.me/</id><title type="html">Technobabble</title><subtitle>Sean's Blog'</subtitle><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><entry><title type="html">Square Foot Gardening, Week 3</title><link href="https://sdunbar.me/personal/sfg-week3/" rel="alternate" type="text/html" title="Square Foot Gardening, Week 3" /><published>2017-06-26T00:00:00+00:00</published><updated>2017-06-26T00:00:00+00:00</updated><id>https://sdunbar.me/personal/sfg-week3</id><content type="html" xml:base="https://sdunbar.me/personal/sfg-week3/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://sdunbar.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sdunbar.me/" rel="alternate" type="text/html" /><updated>2017-07-30T19:18:58+00:00</updated><id>https://sdunbar.me/</id><title type="html">Technobabble</title><subtitle>Sean's Blog'</subtitle><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><entry><title type="html">Square Foot Gardening, Week 8</title><link href="https://sdunbar.me/personal/sfg-week8/" rel="alternate" type="text/html" title="Square Foot Gardening, Week 8" /><published>2017-07-30T00:00:00+00:00</published><updated>2017-07-30T00:00:00+00:00</updated><id>https://sdunbar.me/personal/sfg-week8</id><content type="html" xml:base="https://sdunbar.me/personal/sfg-week8/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+&lt;p&gt;First update in months due to being out of the country doing training for work.
+The butternut squash and pumpkin have grown dramatically since, but have yet to start growing fruit. The vines 
+from the butternut squash will need to be trained onto the trellis over the next couple of weeks. For now I’ve 
+removed one of the pumpkin plants (which I meant to do a month ago) and trimmed back the plants to the better
+stalks.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/week8/1.jpg&quot;&gt;&lt;img src=&quot;/assets/images/sfg/week8/1.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/week8/2.jpg&quot;&gt;&lt;img src=&quot;/assets/images/sfg/week8/2.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/week8/3.jpg&quot;&gt;&lt;img src=&quot;/assets/images/sfg/week8/3.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/week8/4.jpg&quot;&gt;&lt;img src=&quot;/assets/images/sfg/week8/4.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/week8/5.jpg&quot;&gt;&lt;img src=&quot;/assets/images/sfg/week8/5.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/week8/6.jpg&quot;&gt;&lt;img src=&quot;/assets/images/sfg/week8/6.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/week8/7.jpg&quot;&gt;&lt;img src=&quot;/assets/images/sfg/week8/7.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/assets/images/sfg/week8/8.jpg&quot;&gt;&lt;img src=&quot;/assets/images/sfg/week8/8.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Project" /><category term="Plant" /><category term="Gardening" /><summary type="html">Eight Week of Square Foot Gardening</summary></entry><entry><title type="html">Square Foot Gardening, Week 3</title><link href="https://sdunbar.me/personal/sfg-week3/" rel="alternate" type="text/html" title="Square Foot Gardening, Week 3" /><published>2017-06-26T00:00:00+00:00</published><updated>2017-06-26T00:00:00+00:00</updated><id>https://sdunbar.me/personal/sfg-week3</id><content type="html" xml:base="https://sdunbar.me/personal/sfg-week3/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;More progress this week, pumpkins have grown out even more, slugs seem to be present so I need to deal with them.
 Had to trim the butternut squash again as it seemed to have mildew, which is my own fault for watering improperly. 
 Some animal had gotten into the bed one night and destroyed the smallest butternut squash also.&lt;/p&gt;
@@ -2783,20 +2820,4 @@ Dunbar-Router(config-line)# login local
 
 &lt;p&gt;With these basic steps completed, I then moved the router the the LACKRACK I had previously constructed. This is an IKEA LACK table, with IKEA BYGEL towel racks screwed into the legs. This provides a cheap alternative to a dedicated rack. In the future, I plan to purchase a more suitable rack, but this will do for now.&lt;/p&gt;
 
-&lt;p&gt;In the future, I will take a look back at the security and further harden the router. As it stands right now, the router is complete overkill for my home network and should last longer than all the devices in the network.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Networking" /><summary type="html">For part 1, I wiped the 2901 and began setting up a basic configuration</summary></entry><entry><title type="html">Home Network Redesign Overview</title><link href="https://sdunbar.me/home-network-redesign-overview/" rel="alternate" type="text/html" title="Home Network Redesign Overview" /><published>2016-08-14T00:00:00+00:00</published><updated>2016-08-14T00:00:00+00:00</updated><id>https://sdunbar.me/home-network-redesign-overview</id><content type="html" xml:base="https://sdunbar.me/home-network-redesign-overview/">&lt;p&gt;After finishing my Networking Technologies degree in DIT, I decided that I wanted to start a home networking revamp to prove to myself that I could and to refresh my skills. I decided that I wanted to completely redo every aspect of the network, except for my ISP connection. I chose to break this down into 5 steps.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Part 1: Install and configure Cisco 2901 Router&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;From my work placement last year, I was able to acquire 3 Cisco 2901 routers. I decided to re-purpose one of them into my own home router after my previous router (A Mikrotik RB951G) failed.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Part 2: Redesign “heart” of network&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The next step involves securing a proper rack solution, installing a 24port switch, and transferring my current media server into a new, rack-mountable case&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Part 3: Install new Access Points&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Currently I am using a leftover Mikrotik RB951G and an old DLINK DIR-655 to provide wireless access through my house. I plan to replace these with PoE Access Points. I am planning to use Ubiquiti Unifi AP AC Lites as my access points, because they are relatively cheap for the features offerred.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Part 4: Run Cat6 through attic and add wall panels for ethernet&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The final step is to replace the Cat5e cables running through the attic with Cat6. I also plan to terminate these properly in a wall plate, instead of having a cable hanging down from the ceiling which is what is done currently.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Networking" /><summary type="html">After finishing my Networking Technologies degree in DIT, I decided that I wanted to revamp my home network</summary></entry></feed>
+&lt;p&gt;In the future, I will take a look back at the security and further harden the router. As it stands right now, the router is complete overkill for my home network and should last longer than all the devices in the network.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Networking" /><summary type="html">For part 1, I wiped the 2901 and began setting up a basic configuration</summary></entry></feed>
