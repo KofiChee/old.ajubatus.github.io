@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="https://sdunbar.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sdunbar.me/" rel="alternate" type="text/html" /><updated>2017-09-05T17:16:12+00:00</updated><id>https://sdunbar.me/</id><title type="html">Technobabble</title><subtitle>Sean's Blog'</subtitle><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><entry><title type="html">Square Foot Gardening, Week 13</title><link href="https://sdunbar.me/personal/sfg-week13/" rel="alternate" type="text/html" title="Square Foot Gardening, Week 13" /><published>2017-09-05T00:00:00+00:00</published><updated>2017-09-05T00:00:00+00:00</updated><id>https://sdunbar.me/personal/sfg-week13</id><content type="html" xml:base="https://sdunbar.me/personal/sfg-week13/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="https://sdunbar.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sdunbar.me/" rel="alternate" type="text/html" /><updated>2017-09-14T19:15:40+00:00</updated><id>https://sdunbar.me/</id><title type="html">Technobabble</title><subtitle>Sean's Blog'</subtitle><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><entry><title type="html">Square Foot Gardening, Week 14</title><link href="https://sdunbar.me/personal/sfg-week14/" rel="alternate" type="text/html" title="Square Foot Gardening, Week 14" /><published>2017-09-14T00:00:00+00:00</published><updated>2017-09-14T00:00:00+00:00</updated><id>https://sdunbar.me/personal/sfg-week14</id><content type="html" xml:base="https://sdunbar.me/personal/sfg-week14/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+&lt;p&gt;More progress with the pumpkin, some butternut squash growth as well, but I don’t think it will grow in time.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;https://imgur.com/GW1zKe4&quot;&gt;&lt;img src=&quot;https://imgur.com/GW1zKe4&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;https://imgur.com/ecDctaN&quot;&gt;&lt;img src=&quot;https://imgur.com/ecDctaN&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;https://imgur.com/W38aFQW&quot;&gt;&lt;img src=&quot;https://imgur.com/W38aFQW&quot; /&gt;&lt;/a&gt;
+&amp;lt;/figure
+&lt;/figure&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Project" /><category term="Plant" /><category term="Gardening" /><summary type="html">Fourteenth Week of Square Foot Gardening</summary></entry><entry><title type="html">Square Foot Gardening, Week 13</title><link href="https://sdunbar.me/personal/sfg-week13/" rel="alternate" type="text/html" title="Square Foot Gardening, Week 13" /><published>2017-09-05T00:00:00+00:00</published><updated>2017-09-05T00:00:00+00:00</updated><id>https://sdunbar.me/personal/sfg-week13</id><content type="html" xml:base="https://sdunbar.me/personal/sfg-week13/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;Mini update, there is a single pumpkin growing and it’s growing very well. I don’t think any other fruit will be able to mature in time, so I’m going to prune off any other fruit.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -2724,51 +2738,4 @@ the main_acitivity screen is brought up again with the new image displayed.&lt;/
 
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;This formal element was intended to give us the skills required to design an Android application that could open a camera, save the image and then draw lines on said image with dimensions. Through this report I believe I have adequately demonstrated how to construct such an application.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><summary type="html">This is the complete report I submitted for my Mobile Applications module in DT080B</summary></entry><entry><title type="html">Migrating From Google Authenticator To Authy</title><link href="https://sdunbar.me/guides/Migrating-from-Google-Authenticator-to-Authy/" rel="alternate" type="text/html" title="Migrating From Google Authenticator To Authy" /><published>2016-11-26T00:00:00+00:00</published><updated>2016-11-26T00:00:00+00:00</updated><id>https://sdunbar.me/guides/Migrating-from-Google-Authenticator-to-Authy</id><content type="html" xml:base="https://sdunbar.me/guides/Migrating-from-Google-Authenticator-to-Authy/">&lt;h2 id=&quot;migrating-from-google-authenticator-to-authy&quot;&gt;Migrating from Google Authenticator to Authy&lt;/h2&gt;
-
-&lt;p&gt;Two Factor Authentication is a neccessity these days and I try to use it wherever I can, but I was concerned still over what happened if I lost my phone and thus access to my 2FA credentials. To get around this using Google Authenticator I used Titanium Backup to backup the APK and data every 24 hours, but this was really clunky and I didn’t like that there was no built-in method to backup this data.&lt;/p&gt;
-
-&lt;p&gt;Then I discovered Authy, which promises features such as account backups and multi-device usage, such as using a Chrome App to access your 2FA codes when needed. I decided to give it a shot but first I had to copy over my old data from Google Auth.&lt;/p&gt;
-
-&lt;h3 id=&quot;exporting-google-authenticator-account-info&quot;&gt;Exporting Google Authenticator account info&lt;/h3&gt;
-&lt;p&gt;I found that Google Authenticator did not have a simple way to get code information back out, but after some online searching I found &lt;a href=&quot;https://jcode.me/migrate-from-google-authenticator-to-authy-android-5/&quot;&gt;a post on jcode.me detailing the process&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For this, you need to use ADB and have ADB drivers installed for your phone.&lt;/p&gt;
-
-&lt;p&gt;With the phone connected:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adb shell
-su
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;On my phone, I then had to copy over an sqlite3 binary, &lt;a href=&quot;http://forum.xda-developers.com/showpost.php?p=57143465&amp;amp;postcount=15&quot;&gt;found here through XDA&lt;/a&gt;, to my Download folder.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mount -o remount,rw /system 
-cp /sdcard/Download/sqlite3 /system/xbin
-chmod +x /system/xbin/sqlite3
-mount -o remount,ro /system 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now we can finally access the database:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sqlite3 /data/data/com.google.android.apps.authenticator2/databases/databases
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;In the database, we select all information from the accounts table:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;select * from accounts;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This will spit out a number of account details, we are only concerned with the 3rd field, which is the code used we will use to add the key to Authy.&lt;/p&gt;
-
-&lt;p&gt;This can be typed in manually, or you can generate a QR code of the following URL to scan in Authy, where XXXX in the example represents the name of the account being added and XXXX represents the code:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;otpauth://totp/XXXX?secret=YYYY
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;With all these steps completed, I then scanned in the QR codes I generated, which prompted me to identify the account associated with the code and in some cases, tweak the service it was for. Unfortunately, not all services had an icon for them, so they are forced to use a generic icon.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Personal" /><summary type="html">I decided to move from Google Authenticator to Authy, so I could have more devices and a backup if I lost my phone</summary></entry></feed>
+&lt;p&gt;This formal element was intended to give us the skills required to design an Android application that could open a camera, save the image and then draw lines on said image with dimensions. Through this report I believe I have adequately demonstrated how to construct such an application.&lt;/p&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><summary type="html">This is the complete report I submitted for my Mobile Applications module in DT080B</summary></entry></feed>
