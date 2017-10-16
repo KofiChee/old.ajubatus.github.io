@@ -1208,13 +1208,12 @@ InfluxDBClient class from the influxdb package. The method
 InfluxDBClient.write_points() is used, as this allows writing to
 multiple time series names [20].</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">time</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">time</span>
 <span class="kn">import</span> <span class="nn">random</span>
 <span class="kn">from</span> <span class="nn">influxdb</span> <span class="kn">import</span> <span class="n">InfluxDBClient</span>
 <span class="n">client</span> <span class="o">=</span> <span class="n">InfluxDBClient</span><span class="p">(</span><span class="s">'192.168.0.11'</span><span class="p">,</span> <span class="mi">8086</span><span class="p">,</span> <span class="s">''</span><span class="p">,</span> <span class="s">''</span><span class="p">,</span> <span class="s">'test'</span><span class="p">)</span>
 <span class="n">client</span><span class="o">.</span><span class="n">create_database</span><span class="p">(</span><span class="s">'test'</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>The modules time and random are imported for logging to console when
 data is posted and for generating the data later. The IP address, port,
@@ -1222,7 +1221,7 @@ username, password and database name are passed in to the InfluxDBClient
 object. create_database() is used to create the test database we are
 storing this data in, if it does not exist.</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
 <span class="n">json_body</span> <span class="o">=</span> <span class="p">[</span>
 <span class="p">{</span>
 <span class="s">"measurement"</span><span class="p">:</span> <span class="s">"Temperature"</span><span class="p">,</span>
@@ -1242,8 +1241,7 @@ storing this data in, if it does not exist.</p>
 <span class="k">print</span><span class="p">(</span><span class="s">"Posted at "</span> <span class="o">+</span> <span class="n">time</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">"</span><span class="si">%</span><span class="s">Y-</span><span class="si">%</span><span class="s">m-</span><span class="si">%</span><span class="s">d </span><span class="si">%</span><span class="s">H:</span><span class="si">%</span><span class="s">M:</span><span class="si">%</span><span class="s">S"</span><span class="p">,</span>\\
 <span class="n">time</span><span class="o">.</span><span class="n">gmtime</span><span class="p">()))</span>
 <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Inside a never-ending loop, we create a list of dictionaries,
 representing JSON. Inside this list, we store two dicts, both with the
@@ -1263,9 +1261,8 @@ created to display the data. They use the following queries</p>
 
 <p>This results in the query:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>SELECT mean("value") FROM "Moisture" WHERE $timeFilter GROUP BY time(5m) fill(0)
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT mean("value") FROM "Moisture" WHERE $timeFilter GROUP BY time(5m) fill(0)
+</code></pre></div></div>
 
 <p>This query plots the mean value of the last 5 minutes’ worth of Moisture
 data. Fill(0) means it will start the graph at the value 0 instead of
@@ -1329,10 +1326,9 @@ design outlined in the previous section.</p>
 <p>A modification was then made to the test script, replacing the built-in
 light sensor method with a simple analogue read:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">Serial</span><span class="o">.</span><span class="k">print</span><span class="p">(</span><span class="s">", Light Level: "</span><span class="p">);</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Serial</span><span class="o">.</span><span class="k">print</span><span class="p">(</span><span class="s">", Light Level: "</span><span class="p">);</span>
 <span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="n">analogRead</span><span class="p">(</span><span class="n">A0</span><span class="p">));</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Fortunately, this worked perfectly, although the range was restricted to
 a 10-bit number (0 to 1023), this was more than adequate.</p>
@@ -1346,10 +1342,9 @@ a 10-bit number (0 to 1023), this was more than adequate.</p>
 This requires D0 to be wired to the RST pin first and foremost [22]. The
 testing sketch is then appended as follows:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">ESP</span><span class="o">.</span><span class="n">deepSleep</span><span class="p">(</span><span class="n">SLEEP_DELAY_IN_SECONDS</span> <span class="o">*</span> <span class="mi">1000000</span><span class="p">,</span> <span class="n">WAKE_RF_DEFAULT</span><span class="p">);</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ESP</span><span class="o">.</span><span class="n">deepSleep</span><span class="p">(</span><span class="n">SLEEP_DELAY_IN_SECONDS</span> <span class="o">*</span> <span class="mi">1000000</span><span class="p">,</span> <span class="n">WAKE_RF_DEFAULT</span><span class="p">);</span>
 <span class="n">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>SLEEP_DELAY_IN_SECONDS is a constant defined at the top of the
 sketch, it is set to 5 so there is less waiting between tests. This Deep
@@ -1437,7 +1432,7 @@ its own timestamp if the query does not contain one.</p>
 <p>The connection to WiFi and using UDP to send the data requires the
 following variables to be set up:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c">#define SLEEP_DELAY_IN_SECONDS 60</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#define SLEEP_DELAY_IN_SECONDS 60</span>
 <span class="n">const</span> <span class="n">char</span><span class="o">*</span> <span class="n">ssid</span> <span class="o">=</span> <span class="s">"Dunbar"</span><span class="p">;</span>
 <span class="n">const</span> <span class="n">char</span><span class="o">*</span> <span class="n">password</span> <span class="o">=</span> <span class="s">"xxxxxx"</span><span class="p">;</span>
 <span class="n">IPAddress</span> <span class="n">ip</span><span class="p">(</span><span class="mi">192</span><span class="p">,</span> <span class="mi">168</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">35</span><span class="p">);</span>
@@ -1446,40 +1441,36 @@ following variables to be set up:</p>
 <span class="n">byte</span> <span class="n">host</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">192</span><span class="p">,</span> <span class="mi">168</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">11</span><span class="p">};</span>
 <span class="nb">int</span> <span class="n">port</span> <span class="o">=</span> <span class="mi">8089</span><span class="p">;</span>
 <span class="n">WiFiUDP</span> <span class="n">udp</span><span class="p">;</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>The connection is then started with the following two lines:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">WiFi</span><span class="o">.</span><span class="n">config</span><span class="p">(</span><span class="n">ip</span><span class="p">,</span> <span class="n">gateway</span><span class="p">,</span> <span class="n">subnet</span><span class="p">);</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">WiFi</span><span class="o">.</span><span class="n">config</span><span class="p">(</span><span class="n">ip</span><span class="p">,</span> <span class="n">gateway</span><span class="p">,</span> <span class="n">subnet</span><span class="p">);</span>
 <span class="n">WiFi</span><span class="o">.</span><span class="n">mode</span><span class="p">(</span><span class="n">WIFI_STA</span><span class="p">);</span>
 <span class="n">WiFi</span><span class="o">.</span><span class="n">begin</span><span class="p">(</span><span class="n">ssid</span><span class="p">,</span> <span class="n">password</span><span class="p">);</span>
 <span class="n">Serial</span><span class="o">.</span><span class="k">print</span><span class="p">(</span><span class="s">"Connecting to "</span><span class="p">);</span>
 <span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="n">ssid</span><span class="p">);</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>A while loop is used to delay until the connection is completed:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">while</span> <span class="p">(</span><span class="n">WiFi</span><span class="o">.</span><span class="n">status</span><span class="p">()</span> <span class="o">!=</span> <span class="n">WL_CONNECTED</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span> <span class="p">(</span><span class="n">WiFi</span><span class="o">.</span><span class="n">status</span><span class="p">()</span> <span class="o">!=</span> <span class="n">WL_CONNECTED</span><span class="p">)</span> <span class="p">{</span>
 <span class="n">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
 <span class="n">Serial</span><span class="o">.</span><span class="k">print</span><span class="p">(</span><span class="s">"."</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Once this connection is complete, the following is printed to the Serial:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">""</span><span class="p">);</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">""</span><span class="p">);</span>
 <span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">"WiFi connected"</span><span class="p">);</span>
 <span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">"IP address: "</span><span class="p">);</span>
 <span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="n">WiFi</span><span class="o">.</span><span class="n">localIP</span><span class="p">());</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This concludes the Wi-Fi setup, so we then start the sensor with sensor.begin(); Inside loop(), we collect the data and send it off to the server:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">void</span> <span class="n">loop</span><span class="p">()</span> <span class="p">{</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">void</span> <span class="n">loop</span><span class="p">()</span> <span class="p">{</span>
 <span class="k">while</span> <span class="p">(</span><span class="n">sensor</span><span class="o">.</span><span class="n">isBusy</span><span class="p">())</span> <span class="n">delay</span><span class="p">(</span><span class="mi">50</span><span class="p">);</span>
 <span class="n">send_moisture</span><span class="p">();</span>
 <span class="n">send_temp</span><span class="p">();</span>
@@ -1488,8 +1479,7 @@ following variables to be set up:</p>
 <span class="n">ESP</span><span class="o">.</span><span class="n">deepSleep</span><span class="p">(</span><span class="n">SLEEP_DELAY_IN_SECONDS</span> <span class="o">*</span> <span class="mi">1000000</span><span class="p">,</span> <span class="n">WAKE_RF_DEFAULT</span><span class="p">);</span>
 <span class="n">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>As written in the sensor testing sketch, this polls for the sensor to
 not be busy, then runs 3 functions, each one collecting different data.
 After this data is collected and sent, the sensor is set to sleep and
@@ -1498,27 +1488,25 @@ top of the sketch.</p>
 
 <p>The content of the send_moisture() function is as follows:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">"Sending Moisture Level"</span><span class="p">);</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">"Sending Moisture Level"</span><span class="p">);</span>
 <span class="n">String</span> <span class="n">line</span><span class="p">,</span> <span class="n">capacitance</span><span class="p">;</span>
 <span class="n">capacitance</span> <span class="o">=</span> <span class="n">sensor</span><span class="o">.</span><span class="n">getCapacitance</span><span class="p">();</span>
 <span class="n">line</span> <span class="o">=</span> <span class="n">String</span><span class="p">(</span><span class="s">"moisture value="</span> <span class="o">+</span> <span class="n">capacitance</span><span class="p">);</span>
 <span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="n">line</span><span class="p">);</span>
 <span class="n">send_line</span><span class="p">(</span><span class="n">line</span><span class="p">);</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Here, the sensor is polled for the capacitance reading, this is then
 added to a String which follows the format outlined in the Line protocol
 used by InfluxDB. The function send_line() is then called, which is as
 follows:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">"Sending datagram"</span><span class="p">);</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">"Sending datagram"</span><span class="p">);</span>
 <span class="n">udp</span><span class="o">.</span><span class="n">beginPacket</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">port</span><span class="p">);</span>
 <span class="n">udp</span><span class="o">.</span><span class="k">print</span><span class="p">(</span><span class="n">line</span><span class="p">);</span>
 <span class="n">udp</span><span class="o">.</span><span class="n">endPacket</span><span class="p">();</span>
 <span class="n">delay</span><span class="p">(</span><span class="mi">250</span><span class="p">);</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This begins the construction of a datagram, destined for the host and
 port defined earlier. The line is then “printed” to the UDP object,
@@ -1529,12 +1517,11 @@ for the datagram to be properly sent.</p>
 on the InfluxDB server. First, UDP must be enabled on a port (8089) and
 a database must be defined, all Line entries are to the same database
 defined in the config file:</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>[[udp]]
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[udp]]
 enabled = true
 bind-address = ":8089"
 database = "plant"
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>With this enabled, the database must now be created, by entering CREATE
 DATABASE plant in the InfluxDB web admin interface, which is also
@@ -1565,7 +1552,7 @@ examples above, this drastically shortened the connection time down to
 this further by redesigning the Line posting method, down to a single
 packet.</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">void</span> <span class="n">post_line</span><span class="p">(){</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">void</span> <span class="n">post_line</span><span class="p">(){</span>
 <span class="n">String</span> <span class="n">line</span><span class="p">,</span> <span class="n">capacitance</span><span class="p">,</span> <span class="n">temperature</span><span class="p">,</span> <span class="n">light</span><span class="p">;</span>
 <span class="n">capacitance</span> <span class="o">=</span> <span class="n">sensor</span><span class="o">.</span><span class="n">getCapacitance</span><span class="p">();</span>
 <span class="n">line</span> <span class="o">=</span> <span class="n">String</span><span class="p">(</span><span class="s">"moisture value="</span> <span class="o">+</span> <span class="n">capacitance</span> <span class="o">+</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
@@ -1579,8 +1566,7 @@ packet.</p>
 <span class="n">udp</span><span class="o">.</span><span class="n">endPacket</span><span class="p">();</span>
 <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Replacing the three send functions with this shaves off another 200ms,
 making the active time roughly 550ms. Posting every 60 seconds, this
@@ -1595,9 +1581,8 @@ means the device will be active only 0.91% of the time.</p>
 
 <p>The following queries are used for these graphs:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>SELECT median("value") FROM "moisture" WHERE $timeFilter GROUP BY time(5m) fill(0)
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT median("value") FROM "moisture" WHERE $timeFilter GROUP BY time(5m) fill(0)
+</code></pre></div></div>
 <p>Light Level and Temperature of course do not use ‘FROM “moisture”’ and
 instead use their respective data sets.</p>
 
@@ -1636,15 +1621,14 @@ schematic above. This is used in tandem with some code to emulate a pump
 activation, simply blinking the LED on when the soil moisture reading is
 low. The code for this is simple and is as follows:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">sensor</span><span class="o">.</span><span class="n">getCapacitance</span><span class="p">()</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">400</span><span class="p">){</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">sensor</span><span class="o">.</span><span class="n">getCapacitance</span><span class="p">()</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">400</span><span class="p">){</span>
 <span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">"Low Moisture"</span><span class="p">);</span>
 <span class="n">digitalWrite</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
 <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
 <span class="n">Serial</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s">"High Moisture"</span><span class="p">);</span>
 <span class="n">digitalWrite</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This basic code would write out to GPIO15 (which is D8 on the nodeMCU)
 and set it high if the moisture was below a predetermined level, along
@@ -1836,58 +1820,52 @@ internet. [30]</p>
 <p>This requires creating a server{} block in the Nginx config file, which
 is done as follows,</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>server {
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>server {
 listen 443 ssl;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Here a listening service is established on port 443, using SSL</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>root /config/www;
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root /config/www;
 index index.html index.htm index.php;
 This defines the “root” folder of the webpage being served.
 server_name grafana.*;
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>This is one of the more important parts of the config, this means that
 this specific block will only be run for any query with the URL
 grafana.sdunbar.me. This allows for multiple services to be run on
 independent subdomains.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ssl_certificate /config/keys/letsencrypt/fullchain.pem;
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssl_certificate /config/keys/letsencrypt/fullchain.pem;
 ssl_certificate_key /config/keys/letsencrypt/privkey.pem;
 ssl_dhparam /config/nginx/dhparams.pem;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This part defines the location of the cert, keys and Diffie-Hellman Key
 Exchange parameter files.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ssl_ciphers
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssl_ciphers
 ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:AES:CAMELLIA:DES-CBC3-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!aECDH:!EDH-DSS-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA';
 
 ssl_prefer_server_ciphers on;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This massive block is quite simple, it is a list of ciphers that the
 server will present as available to the client for establishing secure
 communications</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>client_max_body_size 0;
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>client_max_body_size 0;
+</code></pre></div></div>
 <p>Setting this parameter to 0 disables the checking of the “body” size of
 requests, this would otherwise restrict the size of requests from the
 client.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>location / {
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>location / {
 include /config/nginx/proxy.conf;
 proxy_pass http://192.168.0.11:3030;
 }
 }
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This concludes setting up what is known as a “reverse proxy” in Nginx.
 This sets the location “/”, aka the root of the website being served, as
@@ -1898,13 +1876,12 @@ said URL and port points to the local Grafana install.</p>
 <a href="https://grafana.sdunbar.me/">https://grafana.sdunbar.me/</a> and not http://, another block must be set
 up for this to automatically redirect.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>server {
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>server {
 listen 80;
 server_name *.sdunbar.me;
 return 301 https://$host$request_uri;
 }
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>With this block in place, any request to any subdomain on port 80 (HTTP)
 will be redirected with error code 301 and towards the same address, but
 with HTTPS instead of HTTP. Error code 301 indicates that the server has
@@ -2209,6 +2186,41 @@ areas of a garden.</p>
     
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="https://sdunbar.me/personal/sfg-week19/" rel="permalink">Square Foot Gardening, Week 19
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Nineteenth Week of Square Foot Gardening
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "https://sdunbar.me/assets/images/teaser.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="https://sdunbar.me/personal/sfg-week14/" rel="permalink">Square Foot Gardening, Week 14
 </a>
       
@@ -2293,41 +2305,6 @@ areas of a garden.</p>
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">Eleventh Week of Square Foot Gardening
-</p>
-  </article>
-</div>
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src=
-          
-            "https://sdunbar.me/assets/images/teaser.jpg"
-          
-          alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="https://sdunbar.me/personal/sfg-week8/" rel="permalink">Square Foot Gardening, Week 8
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Eight Week of Square Foot Gardening
 </p>
   </article>
 </div>

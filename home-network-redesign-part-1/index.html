@@ -365,19 +365,18 @@
 
 <h3 id="interface-setup">Interface setup:</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Dunbar-Router(config)#interface gigabitEthernet 0/0  
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dunbar-Router(config)#interface gigabitEthernet 0/0  
 Dunbar-Router(config-if)#ip address 192.168.1.101 255.255.255.0  
 Dunbar-Router(config-if)#ip nat outside
 
 Dunbar-Router(config)#interface GigabitEthernet0/1  
 Dunbar-Router(config-if)#ip address 192.168.0.1 255.255.255.0  
 Dunbar-Router(config-if)#ip nat inside  
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h3 id="dhcp-setup">DHCP setup:</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Dunbar-Router(config)#ip dhcp pool DHCPPOOL  
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dunbar-Router(config)#ip dhcp pool DHCPPOOL  
 Dunbar-Router(dhcp-config)#network 192.168.0.0 255.255.255.0  
 Dunbar-Router(dhcp-config)#default  
 Dunbar-Router(dhcp-config)#default-router 192.168.0.1  
@@ -386,12 +385,11 @@ Dunbar-Router(dhcp-config)#dns-server 8.8.8.8 8.8.4.4
 Dunbar-Router(dhcp-config)#lease 0 12 0
 
 Dunbar-Router(config)#ip dhcp excluded-address 192.168.0.1 192.168.0.99
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h3 id="pat-and-default-route-setup">PAT and default route setup:</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Dunbar-Router(config)#interface gigabitEthernet 0/0  
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dunbar-Router(config)#interface gigabitEthernet 0/0  
 Dunbar-Router(config-if)#ip nat outside
 
 Dunbar-Router(config)#interface gigabitEthernet 0/1  
@@ -400,16 +398,14 @@ Dunbar-Router(config-if)#ip nat inside
 Dunbar-Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255  
 Dunbar-Router(config)#ip nat inside source list 1 interface gigabitEthernet 0/0 overload
 Dunbar-Router(config)#ip route 0.0.0.0 0.0.0.0 gigabitEthernet 0/0
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>I then set up some static port translations (port forwarding). This is used for the numerous services I run on my media server, allowing me external access to these services.</p>
 
 <h3 id="port-forwards">Port forwards:</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Dunbar-Router(config)#ip nat inside source static tcp $serverAddress $serverPort $outsideInterfaceAddress $extendablePort extendable  
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dunbar-Router(config)#ip nat inside source static tcp $serverAddress $serverPort $outsideInterfaceAddress $extendablePort extendable  
+</code></pre></div></div>
 
 <p>For this router I am using a local user for authentication</p>
 
@@ -417,7 +413,7 @@ Dunbar-Router(config)#ip route 0.0.0.0 0.0.0.0 gigabitEthernet 0/0
 
 <h3 id="local-user-and-ssh">Local user and SSH:</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Dunbar-Router(config)#username $username password $password
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dunbar-Router(config)#username $username password $password
 Dunbar-Router(config)#enable secret
 
 Dunbar-Router(config)#crypto key generate rsa
@@ -431,8 +427,7 @@ Dunbar-Router(config-line)#exit
 Dunbar-Router(config)#line console 0  
 Dunbar-Router(config-line)# logging synchronous  
 Dunbar-Router(config-line)# login local
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>With these basic steps completed, I then moved the router the the LACKRACK I had previously constructed. This is an IKEA LACK table, with IKEA BYGEL towel racks screwed into the legs. This provides a cheap alternative to a dedicated rack. In the future, I plan to purchase a more suitable rack, but this will do for now.</p>
 
@@ -507,6 +502,41 @@ Dunbar-Router(config-line)# login local
     <div class="page__related">
       <h4 class="page__related-title">You May Also Enjoy</h4>
       <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "https://sdunbar.me/assets/images/teaser.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="https://sdunbar.me/personal/sfg-week19/" rel="permalink">Square Foot Gardening, Week 19
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Nineteenth Week of Square Foot Gardening
+</p>
+  </article>
+</div>
         
           
 
@@ -609,41 +639,6 @@ Dunbar-Router(config-line)# login local
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">Eleventh Week of Square Foot Gardening
-</p>
-  </article>
-</div>
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src=
-          
-            "https://sdunbar.me/assets/images/teaser.jpg"
-          
-          alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="https://sdunbar.me/personal/sfg-week8/" rel="permalink">Square Foot Gardening, Week 8
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Eight Week of Square Foot Gardening
 </p>
   </article>
 </div>
