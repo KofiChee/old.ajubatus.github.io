@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="https://sdunbar.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sdunbar.me/" rel="alternate" type="text/html" /><updated>2017-10-16T19:27:03+00:00</updated><id>https://sdunbar.me/</id><title type="html">Technobabble</title><subtitle>Sean's Blog'</subtitle><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><entry><title type="html">Square Foot Gardening, Week 19</title><link href="https://sdunbar.me/personal/sfg-week19/" rel="alternate" type="text/html" title="Square Foot Gardening, Week 19" /><published>2017-10-16T00:00:00+00:00</published><updated>2017-10-16T00:00:00+00:00</updated><id>https://sdunbar.me/personal/sfg-week19</id><content type="html" xml:base="https://sdunbar.me/personal/sfg-week19/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://sdunbar.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sdunbar.me/" rel="alternate" type="text/html" /><updated>2017-10-29T17:58:41+00:00</updated><id>https://sdunbar.me/</id><title type="html">Technobabble</title><subtitle>Sean's Blog'</subtitle><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><entry><title type="html">Square Foot Gardening, Week 21</title><link href="https://sdunbar.me/personal/sfg-week21/" rel="alternate" type="text/html" title="Square Foot Gardening, Week 21" /><published>2017-10-29T00:00:00+00:00</published><updated>2017-10-29T00:00:00+00:00</updated><id>https://sdunbar.me/personal/sfg-week21</id><content type="html" xml:base="https://sdunbar.me/personal/sfg-week21/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+&lt;p&gt;Finally approaching Halloween! Today I cut the pumpkin free and set out to carve it. It was more difficult than I had anticipated, as the pumpkin was entirely solid! This is because it was underdeveloped due to poor feeding in it’s early stages.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, it was still carvable after carving away the inside first. I used the “Lenny” template from &lt;a href=&quot;http://www.pumpkinlady.com/product/lenny/&quot;&gt;Pumpkin Lady&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The garlic and onions are slowly developing. They should slow down as we approach winter, and should survive any frost, to be harvested early next year.&lt;/p&gt;
+
+&lt;p&gt;The Butternut Squash was a failure, for the same reasons as the Pumpkin.&lt;/p&gt;
+
+&lt;p&gt;I’ve learned a lot about growing these past few months, and I think I can do a much better job next year!&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;https://i.imgur.com/ouVuAc9.jpg&quot;&gt;&lt;img src=&quot;https://i.imgur.com/ouVuAc9.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Before cutting&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;https://i.imgur.com/kB9Ful.jpg&quot;&gt;&lt;img src=&quot;https://i.imgur.com/kB9Ful.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Comparison to Pumpkin from Lidl&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;https://i.imgur.com/HluV68y.jpg&quot;&gt;&lt;img src=&quot;https://i.imgur.com/HluV68y.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Cut and illuminated!&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;https://i.imgur.com/hViZm7d.jpg&quot;&gt;&lt;img src=&quot;https://i.imgur.com/hViZm7d.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Bonus: Barney investigates the strange object&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Project" /><category term="Plant" /><category term="Gardening" /><summary type="html">Twenty-first Week of Square Foot Gardening</summary></entry><entry><title type="html">Square Foot Gardening, Week 19</title><link href="https://sdunbar.me/personal/sfg-week19/" rel="alternate" type="text/html" title="Square Foot Gardening, Week 19" /><published>2017-10-16T00:00:00+00:00</published><updated>2017-10-16T00:00:00+00:00</updated><id>https://sdunbar.me/personal/sfg-week19</id><content type="html" xml:base="https://sdunbar.me/personal/sfg-week19/">&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;Had to cut back the pumpkin leaves due to major infestation. I’m not sure when it will fully ripen, but I likely will cut it off next week in preparation for Halloween.&lt;/p&gt;
 
 &lt;p&gt;Planted the onions and garlic from my revised plan! The onions are sprouting already, the garlic should take a longer time to sprout. Hopefully they grow hardy enough to survive the overwintering process.&lt;/p&gt;
@@ -1931,176 +1960,6 @@ areas of a garden.&lt;/p&gt;
     &lt;tr&gt;
       &lt;td&gt;[30]&lt;/td&gt;
       &lt;td&gt;Netcraft, “April 2017 Web Server Survey,” April 2017. [Online]. Available: https://news.netcraft.com/archives/2017/04/21/april-2017-web-server-survey.html. [Accessed 18 May 2017].&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Report" /><category term="Plant" /><summary type="html">This is the preliminary report I submitted for my Final Year Project in DT080B</summary></entry><entry><title type="html">Final Year Project - Preliminary Report</title><link href="https://sdunbar.me/college/final-year-project-prelim-report/" rel="alternate" type="text/html" title="Final Year Project - Preliminary Report" /><published>2017-02-18T00:00:00+00:00</published><updated>2017-02-18T00:00:00+00:00</updated><id>https://sdunbar.me/college/final-year-project-prelim-report</id><content type="html" xml:base="https://sdunbar.me/college/final-year-project-prelim-report/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
-
-&lt;p&gt;The purpose of this Preliminary Report is to explain the objectives of the project and provide a timeline of events that need to be achieved. This will be done in the following manner:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Breaking down the project into a number of tasks&lt;/li&gt;
-  &lt;li&gt;Describing these tasks&lt;/li&gt;
-  &lt;li&gt;Researching existing solutions&lt;/li&gt;
-  &lt;li&gt;Talking about research areas that will be covered&lt;/li&gt;
-  &lt;li&gt;Creating a plan with times to complete each objective&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;objectives&quot;&gt;Objectives&lt;/h1&gt;
-
-&lt;p&gt;The objective of this project is to develop a sensor platform that will report soil moisture, temperature and light level back to a central server, which will display these statistics in a graph over a web interface. This will involve determining what single board computer (SBC) to use, along with sensors, communication methods, data storage methods and methods for displaying the stored information. The SBC will also be able to drive a solenoid for the purpose of watering the plant.&lt;/p&gt;
-
-&lt;p&gt;The key objectives that must be achieved are as follows:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Identification of a suitable SBC and development environment&lt;/li&gt;
-  &lt;li&gt;Identification of a suitable web service&lt;/li&gt;
-  &lt;li&gt;Select, source and interface with sensors&lt;/li&gt;
-  &lt;li&gt;Select, source and interface with pump system&lt;/li&gt;
-  &lt;li&gt;Develop SBC application in tandem with web service&lt;/li&gt;
-  &lt;li&gt;Test and analyse performance.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;1 will involve determining which SBC to use, what development environment to use with it (e.g. some SBCs have different firmware which use different languages).&lt;/p&gt;
-
-&lt;p&gt;2 will require that a server-side data storage mechanism is decided on and implemented, this must be accessible by both the SBC and the graphing web service. A graphing web service must also be decided on and implemented. Security will be a concern for all these web services and must be explored and commented on.&lt;/p&gt;
-
-&lt;p&gt;3 will involve finding sensors that are capable interfacing with the SBC and have their data pulled as necessary.&lt;/p&gt;
-
-&lt;p&gt;4 will require interfacing with a solenoid driver to activate a pump for watering the plant.  This will involve designing a circuit layout in the form of a breadboard prototype.&lt;/p&gt;
-
-&lt;p&gt;5 will be the actual design of the software for the SBC as well as the setup of the server-side components, the database and graphing web service.&lt;/p&gt;
-
-&lt;p&gt;Finally, part 6 will involve testing and analysing performance, along with determining viability of solar power as an option. This will mean testing all the sensors for both accuracy and precision and testing the pump is operating within reasonable limits for both ml of water pumped and power usage. The power usage of the system with and without the pump will also be measured, to use for determining if solar power is a viable option.&lt;/p&gt;
-
-&lt;h1 id=&quot;ethics&quot;&gt;Ethics&lt;/h1&gt;
-
-&lt;p&gt;Although the project itself has little ethical requirements due to its nature, I must still be ethical with regards to the report writing, making sure to reference all sources correctly and not claim credit for work that is not mine.&lt;/p&gt;
-
-&lt;h1 id=&quot;research&quot;&gt;Research&lt;/h1&gt;
-
-&lt;h2 id=&quot;existing-solutions&quot;&gt;Existing Solutions&lt;/h2&gt;
-
-&lt;p&gt;A number of commercial plant monitors exist, one in particular being the Parrot Flower Power, by Parrot. This is a small unit, placed directly in the plants soil, which connects to a nearby phone via Bluetooth and reports on not only soil moisture level, temperature and light level but nutritional intake of the plant, powered with a 6 month battery. It also features a graph interface accessible via the app. [1]&lt;/p&gt;
-
-&lt;p&gt;This however has rather poor reviews on sites such as CNET [2] and is now discontinued. The system I am planning to develop will have a number of advantages over this product:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Potentially Cheaper&lt;/li&gt;
-  &lt;li&gt;Autonomous&lt;/li&gt;
-  &lt;li&gt;Self-watering&lt;/li&gt;
-  &lt;li&gt;No need for phone interaction&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;/h2&gt;
-
-&lt;p&gt;Many SBCs exist that are suitable for this project, such as the Arduino Uno/Nano and clones, the ESP8266 and derivatives, the Raspberry Pi and a ton of Chinese clones. This project will involve further research into these and comparing their suitability across several factors, such as cost, GPIO and power usage.&lt;/p&gt;
-
-&lt;p&gt;The sensors used will be fairly standard, a soil moisture sensor, thermometer and light sensor. Many ultracheap sensors are available locally and from China. I will explore a number of available choices and compare them.&lt;/p&gt;
-
-&lt;p&gt;The pump system will need to be suitable for the plant. This will involve a reservoir, pump, power source and a method of activating the pump, such as a solenoid. I will need to research the types of pumps available and compare how much power they use, how much space they take up and how reliable they are.&lt;/p&gt;
-
-&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;p&gt;Depending on the SBC chosen, there are a few software considerations to make. If choosing a full featured SBC such as the Pi, the entire software stack will be capable of running on it, however if something like an Arduino or ESP8266 is chosen, the data storage and graphing software must be installed on a server instead.&lt;/p&gt;
-
-&lt;p&gt;I will also need to research a suitable database to store information from the device, along with suitable software for presenting this info in a graph. This will mean I must compare the many  database solutions available, talk about the advantages and disadvantages of each and talk about how they tie in with the graphing software.&lt;/p&gt;
-
-&lt;h1 id=&quot;work-plan&quot;&gt;Work Plan&lt;/h1&gt;
-
-&lt;h2 id=&quot;timeline&quot;&gt;Timeline&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Research Components of Project                                                -        2 weeks&lt;/strong&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Research Hardware                                                           -        1 week
-        &lt;ol&gt;
-          &lt;li&gt;Determine SBC to use&lt;/li&gt;
-          &lt;li&gt;Determine Moisture Sensor&lt;/li&gt;
-          &lt;li&gt;Determine LDR (or other optic sensor)&lt;/li&gt;
-          &lt;li&gt;Determine Thermometer&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Research Software                                                            -        1 week
-        &lt;ol&gt;
-          &lt;li&gt;Determine firmware to use on SBC&lt;/li&gt;
-          &lt;li&gt;Determine Data Storage Solution to used&lt;/li&gt;
-          &lt;li&gt;Determine Graphing Web Service to use&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Design Hardware Implementation                                                -        2 weeks&lt;/strong&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Set up SBC and interface with sensors                                        -        1 week
-        &lt;ol&gt;
-          &lt;li&gt;Set up each sensor individually and pull data from it&lt;/li&gt;
-          &lt;li&gt;Test pushing of data from each sensor&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Set up solenoid driver with SBC                                                -        1 week
-        &lt;ol&gt;
-          &lt;li&gt;Test activation of solenoid driver&lt;/li&gt;
-          &lt;li&gt;Determine how long to run pump for desired output&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Design Software Implementation                                                -        2 weeks&lt;/strong&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Set up Data Storage Solution                                                -        1 week
-        &lt;ol&gt;
-          &lt;li&gt;Implement DSS in appropriate fashion taking security into account&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Set up Graphing Web Service                                                -        1 week
-        &lt;ol&gt;
-          &lt;li&gt;Implement Graphing Web Service, track statistics and infer data from them&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Testing and Refinement                                                        -        2 weeks&lt;/strong&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Test values for accuracy                                                     -        1 week
-        &lt;ol&gt;
-          &lt;li&gt;Use known working thermometer to measure temperature&lt;/li&gt;
-          &lt;li&gt;Test pump output matches expected values&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Determine Solar Power viability                                        -        1 week
-        &lt;ol&gt;
-          &lt;li&gt;Measure power output and Sun                                        -        2 days
-            &lt;ol&gt;
-              &lt;li&gt;Compare power usage to potential photovoltaic panel power generation&lt;/li&gt;
-              &lt;li&gt;Possibly use LDR to generate an estimate of power generation&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Research available solutions                                        -        3 days&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h1&gt;
-
-&lt;p&gt;I believe with this preliminary report I have adequately outlined the steps I will need to take to fulfil this project in accordance with the guidelines set out by DIT. I have broken down the project into 6 steps, briefly talked about existing solutions and gave a timeline of events for the project.&lt;/p&gt;
-
-&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;[1]&lt;/th&gt;
-      &lt;th&gt;Parrot, &quot;Parrot - Flower Power,&quot; 2017. [Online]. Available: &lt;a href=&quot;http://global.parrot.com/au/products/flower-power/&quot;&gt;http://global.parrot.com/au/products/flower-power/&lt;/a&gt;. [Accessed 16 February 2017].&lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[2]&lt;/td&gt;
-      &lt;td&gt;A. Gebhart, &quot;Parrot Flower Power Review,&quot; 4 June 2014. [Online]. Available: &lt;a href=&quot;http://global.parrot.com/au/products/flower-power/&quot;&gt;https://www.cnet.com/uk/products/parrot-flower-power/review/&lt;/a&gt;. [Accessed 16 February 2017].&lt;/td&gt;
-      &lt;td&gt;%&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</content><author><name>Sean Dunbar</name><email>sean@sdunbar.me</email></author><category term="Report" /><category term="Plant" /><summary type="html">This is the preliminary report I submitted for my Final Year Project in DT080B</summary></entry></feed>
