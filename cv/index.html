@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
-  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.9.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
 -->
@@ -9,37 +9,21 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin SEO -->
-
-
-
-
-
-
-
-
-
-<title>Technobabble</title>
-
-
-
-
+<!-- begin _includes/seo.html --><title>Technobabble</title>
 <meta name="description" content="Sean’s Blog’">
 
 
 
-
-<meta name="author" content="Sean Dunbar">
-
+<meta property="og:type" content="website">
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Technobabble">
 <meta property="og:title" content="Technobabble">
+<meta property="og:url" content="https://sdunbar.me/cv/">
 
 
-  <link rel="canonical" href="https://sdunbar.me/cv/">
-  <meta property="og:url" content="https://sdunbar.me/cv/">
 
 
+  <meta property="og:image" content="https://sdunbar.me/assets/images/site-logo.jpg">
 
 
 
@@ -56,21 +40,19 @@
   
 
   
-    <meta name="twitter:creator" content="@Sean Dunbar">
+
+
+
+
+
+
+
+  
+
   
 
 
-
-  
-
-  
-
-
-
-  <meta property="og:image" content="https://sdunbar.me/assets/images/site-logo.jpg">
-
-
-
+<link rel="canonical" href="https://sdunbar.me/cv/">
 
 
 
@@ -89,11 +71,11 @@
 
   <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Person",
-      "name" : "Sean Dunbar",
-      "url" : "https://sdunbar.me",
-      "sameAs" : null
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Sean Dunbar",
+      "url": "https://sdunbar.me",
+      "sameAs": null
     }
   </script>
 
@@ -102,7 +84,8 @@
 
 
 
-<!-- end SEO -->
+
+<!-- end _includes/seo.html -->
 
 
 <link href="https://sdunbar.me/feed.xml" type="application/atom+xml" rel="alternate" title="Technobabble Feed">
@@ -145,8 +128,9 @@
   <body class="layout--single">
 
     <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
+
     <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -155,20 +139,29 @@
         <ul class="visible-links">
           
             
-            <li class="masthead__menu-item"><a href="https://sdunbar.me/cv/">Curriculum Vitae</a></li>
+            <li class="masthead__menu-item">
+              <a href="https://sdunbar.me/cv/" >Curriculum Vitae</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="https://sdunbar.me/categories/#college">College Work</a></li>
+            <li class="masthead__menu-item">
+              <a href="https://sdunbar.me/categories/#college" >College Work</a>
+            </li>
           
         </ul>
-        <button><div class="navicon"></div></button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
 
-    
+    <div class="initial-content">
+      
 
 
 
@@ -177,18 +170,23 @@
   <div class="sidebar sticky">
   
 
+
 <div itemscope itemtype="http://schema.org/Person">
 
   
     <div class="author__avatar">
       
-        <img src="https://sdunbar.me/assets/images/bio-photo.jpg" class="author__avatar" alt="Sean Dunbar" itemprop="image">
+
+      
+        <img src="https://sdunbar.me/assets/images/bio-photo.jpg" alt="Sean Dunbar" itemprop="image">
       
     </div>
   
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">Sean Dunbar</h3>
+    
+      <h3 class="author__name" itemprop="name">Sean Dunbar</h3>
+    
     
       <p class="author__bio" itemprop="description">
         I am 22 year old male currently working at Google in the Internal Technology Resident Program
@@ -201,7 +199,7 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Dublin</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Dublin</span>
         </li>
       
 
@@ -211,7 +209,7 @@
         <li>
           <a href="mailto:sean@sdunbar.me">
             <meta itemprop="email" content="sean@sdunbar.me" />
-            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
           </a>
         </li>
       
@@ -221,7 +219,7 @@
       
         <li>
           <a href="https://twitter.com/venomireland" itemprop="sameAs">
-            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
           </a>
         </li>
       
@@ -233,7 +231,7 @@
       
         <li>
           <a href="https://www.linkedin.com/in/sean-dunbar-46687670" itemprop="sameAs">
-            <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
       
@@ -249,7 +247,7 @@
       
         <li>
           <a href="https://github.com/ajubatus" itemprop="sameAs">
-            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
           </a>
         </li>
       
@@ -269,7 +267,7 @@
       
         <li>
           <a href="https://steamcommunity.com/id/venomireland" itemprop="sameAs">
-            <i class="fa fa-fw fa-steam-square" aria-hidden="true"></i> Steam
+            <i class="fab fa-fw fa-steam" aria-hidden="true"></i> Steam
           </a>
         </li>
       
@@ -278,7 +276,7 @@
         
           <li>
             <a href="https://www.youtube.com/channel/UCbsN9ZP_h4_joiB8zE7FpiQ" itemprop="sameAs">
-              <i class="fa fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube
+              <i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube
             </a>
           </li>
         
@@ -297,7 +295,7 @@
       <!--
   <li>
     <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
-      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
 -->
@@ -324,6 +322,7 @@
       
 
       <section class="page__content" itemprop="text">
+        
         <h1 id="summary">Summary</h1>
 
 <p>I am currently in my 4th year at DIT, studying Network Applications and Services. I am very quick to learn new skills and am extremely enthusiastic about technology. I have built, repaired and worked on numerous computers over the past few years. I also host the blog you are on right now through GitHub Pages as well as maintain a home media server running unRAID.</p>
@@ -592,6 +591,9 @@
   
 </div>
 
+    </div>
+
+    
 
     <div class="page__footer">
       <footer>
@@ -604,41 +606,28 @@
       <li><strong>Follow:</strong></li>
     
     
-      <li><a href="https://twitter.com/venomireland"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      <li><a href="https://twitter.com/venomireland"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
     
     
     
-      <li><a href="http://github.com/ajubatus"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="https://github.com/ajubatus"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     
     
     
-    <li><a href="https://sdunbar.me/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="https://sdunbar.me/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2017 Sean Dunbar. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2018 Sean Dunbar. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
   <script src="https://sdunbar.me/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 
-
-
-
-  <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-66918213-3']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
 
 
 
